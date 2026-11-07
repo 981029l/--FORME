@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-11-06T20:45:17.273Z",
+  "base": "http://127.0.0.1:3000",
+  "checks": [
+    {
+      "name": "Selected depth has matching detail and preview",
+      "pass": true
+    },
+    {
+      "name": "Selected cinema has matching detail and preview",
+      "pass": true
+    },
+    {
+      "name": "Selected doodle has matching detail and preview",
+      "pass": true
+    },
+    {
+      "name": "Selected editorial has matching detail and preview",
+      "pass": true
+    },
+    {
+      "name": "Selected architecture has matching detail and preview",
+      "pass": true
+    },
+    {
+      "name": "Selected music has matching detail and preview",
+      "pass": true
+    },
+    {
+      "name": "Forward wraps from last to first",
+      "pass": true
+    },
+    {
+      "name": "Backward wraps from first to last",
+      "pass": true
+    },
+    {
+      "name": "Rapid nine switches settle without outgoing image",
+      "pass": true
+    },
+    {
+      "name": "Keyboard changes active work",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion switches immediately",
+      "pass": true
+    },
+    {
+      "name": "Enabling reduce during animation settles",
+      "pass": true
+    },
+    {
+      "name": "Mouse horizontal drag changes work",
+      "pass": true
+    },
+    {
+      "name": "Unmount during animation leaves clean homepage",
+      "pass": true
+    },
+    {
+      "name": "Wide library has four columns",
+      "pass": true
+    },
+    {
+      "name": "Single wide result starts at grid left",
+      "pass": true
+    },
+    {
+      "name": "Quick preview 1440px layout and axe",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "violations": []
+      }
+    },
+    {
+      "name": "Quick preview 390px layout and axe",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "violations": []
+      }
+    },
+    {
+      "name": "Quick preview 320px layout and axe",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "violations": []
+      }
+    },
+    {
+      "name": "Preserved preview cinema",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview cinema/project",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview cinema/about",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview doodle",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview doodle/project",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview doodle/about",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview depth",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview depth/project",
+      "pass": true
+    },
+    {
+      "name": "Preserved preview depth/about",
+      "pass": true
+    },
+    {
+      "name": "Native touch horizontal swipe changes work",
+      "pass": true
+    },
+    {
+      "name": "Vertical touch scroll preserves work",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

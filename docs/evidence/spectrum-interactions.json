@@ -1,0 +1,82 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T18:29:51.092Z",
+  "checks": [
+    {
+      "kit": "hotel",
+      "initialTotal": 1960,
+      "suiteThreeNights": 4140,
+      "photoAndTitleUpdate": true,
+      "keyboardDisclosure": true
+    },
+    {
+      "kit": "dashboard",
+      "periodStatistics": [
+        [
+          66,
+          12,
+          8,
+          67
+        ],
+        [
+          30,
+          6,
+          5,
+          83
+        ],
+        [
+          36,
+          6,
+          3,
+          50
+        ]
+      ],
+      "filteredCsvRows": 3,
+      "csvUtf8Bom": true,
+      "sorting": true,
+      "emptyReset": true,
+      "densityChanges": true
+    },
+    {
+      "kit": "journal",
+      "combinedSearchCategory": true,
+      "keyboardNativeDisclosure": true,
+      "emptyReset": true,
+      "fontSizeChanges": true,
+      "sectionAnchor": true,
+      "mobileLargeText": true
+    },
+    {
+      "kit": "wellness",
+      "mondaySessions": 2,
+      "sundayEmpty": true,
+      "weeklySessions": 8,
+      "restSessions": 2,
+      "practiceSwitches": true
+    },
+    {
+      "kit": "playful",
+      "paintErase": true,
+      "arrowSpaceKeyboard": true,
+      "tabExitsCanvas": true,
+      "pngSize": [
+        800,
+        800
+      ],
+      "pngPixelMatchesEditor": true,
+      "resetPalettePreset": true
+    },
+    {
+      "kit": "education",
+      "courseFiltersAndLinks": true,
+      "chapterSwitches": true,
+      "mobileFocusScroll": true,
+      "progressPersists": true,
+      "resumeFirstIncomplete": true,
+      "crossTabMerge": true,
+      "crossTabResetSync": true,
+      "emptyReset": true
+    }
+  ],
+  "errors": []
+}

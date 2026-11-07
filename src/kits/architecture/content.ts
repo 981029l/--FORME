@@ -1,0 +1,68 @@
+export const content = {
+  brand: "构间", wordmark: "MONO", email: "studio@mono.example",
+  nav: { home: "首页", project: "项目", about: "事务所", contact: "联系" },
+  common: { skip: "跳至内容", navigation: "主导航", arrow: "↗", back: "回到首页" },
+  home: {
+    kicker: "ARCHITECTURE & EVERYDAY LIFE",
+    title: "BETWEEN.", subtitle: "建筑，始于日常。",
+    intro: "从城市的尺度，到一束光的方向。我们研究空间，也关心发生其中的生活。",
+    action: "阅读之间计划", caption: "之间计划 / 城市与人的关系研究", imageLabel: "城市观察影像",
+    workTitle: "一份关于空间的提案", workIntro: "空间的价值，常常藏在看似平常的时刻。沿着城市、居住与自然三条线索，重新理解日常。",
+    indexTitle: "研究索引", indexLabel: "THE BETWEEN STUDY",
+    studies: [
+      { number: "01", title: "城市的间隙", topic: "公共性 / 边界", anchor: "city" },
+      { number: "02", title: "光下的居所", topic: "居住 / 尺度", anchor: "dwelling" },
+      { number: "03", title: "与自然相邻", topic: "景观 / 感知", anchor: "landscape" },
+    ],
+    workCaption: "居住研究：从光线与停留的位置开始。",
+    beliefTitle: "好的空间，\n容得下不同的生活。",
+    beliefBody: "不以一种固定的形式回答所有问题。我们先理解场所，再讨论结构、材料和动线，让空间与使用者共同生长。",
+    aboutAction: "了解构间的工作方式",
+  },
+  project: {
+    kicker: "自主概念研究 / THE BETWEEN STUDY", title: "之间计划", subtitle: "在边界之间，寻找新的共同空间。",
+    facts: [
+      { label: "项目性质", value: "虚构概念研究" },
+      { label: "研究范围", value: "城市、居住、景观" },
+      { label: "表达方式", value: "空间叙事与影像编辑" },
+    ],
+    briefTitle: "把人的体验，\n放回讨论的起点。",
+    brief: "一栋建筑与城市如何相接，一间房子怎样接住日光，一道边界能否让自然靠近。之间计划用三个相互关联的问题，展开对日常空间的观察。这是一份设计方向练习，不对应已建成委托。",
+    chapters: [
+      { id: "city", number: "01", title: "城市的间隙", subtitle: "从建筑的边缘，看见公共生活。", body: "立面定义了体量，也决定了人与街道接触的方式。研究从入口、退界和步行路径展开，思考如何把经过的地方，变为愿意短暂停留的地方。", note: "观察重点：入口、视线与可达性。" },
+      { id: "dwelling", number: "02", title: "光下的居所", subtitle: "让使用的方式，决定空间的次序。", body: "我们以坐下、交谈、阅读这些日常动作梳理空间。保留光线进入的通道，让家具之间的距离、材质的触感和安静的角落，形成真正可用的居住尺度。", note: "观察重点：自然光、动线与停留。" },
+      { id: "landscape", number: "03", title: "与自然相邻", subtitle: "边界也可以是一段缓慢的过渡。", body: "室内与室外不必只有一道清晰的分隔。透过树影、景深与季节变化，重新理解空间的层次，让自然成为体验的一部分，而不只是窗外的背景。", note: "观察重点：边界、季节与感知。" },
+    ],
+    methodTitle: "从观察到提案", method: [
+      { title: "记录", body: "以影像和文字记录光、尺度与人的行为，先建立共同的问题。" },
+      { title: "转译", body: "把观察梳理为动线、边界和材质的关系，形成清晰的空间判断。" },
+      { title: "回看", body: "回到使用者的视角检查每个选择，让提案始终服务于真实的生活。" },
+    ],
+    disclosure: "本页为虚构研究提案。图片采用公开图库素材，仅用于说明视觉与研究方向，并非构间设计、建造或拍摄的项目。",
+  },
+  about: {
+    kicker: "ABOUT THE PRACTICE", title: ["先理解生活，", "再定义空间。"],
+    intro: "构间是一间虚构的建筑与空间研究事务所。这份作品集呈现一种工作态度：以观察为基础，以清晰而克制的设计回应场所。",
+    statement: "形式会留下印象，\n日常让空间有意义。",
+    body: "我们关心建筑如何被使用，也关心它如何随时间变化。把不同尺度的问题放在同一张桌面上讨论，从街道与入口，到光线与手能触及的材料，让整体与细节彼此照应。",
+    servicesTitle: "工作的尺度",
+    services: [
+      { title: "建筑概念", detail: "场所研究 / 空间策略 / 概念表达" },
+      { title: "室内空间", detail: "使用场景 / 动线梳理 / 材质方向" },
+      { title: "研究与叙事", detail: "主题研究 / 影像编辑 / 视觉提案" },
+    ],
+    methodTitle: "共同工作的方式",
+    method: "从充分倾听开始，明确需要解决的问题；在方案中保留讨论的空间；在每一次推敲后，回到最初的使用体验。清晰的沟通，与清晰的设计同样重要。",
+    caption: "建筑观察是理解场所的起点。",
+  },
+  contact: {
+    title: "从一个问题开始。", body: "关于空间、关于日常，或一个正在形成的想法。",
+    label: "演示联系邮箱", copy: "复制演示邮箱", copied: "已复制演示邮箱。", fallback: "暂时无法复制，请选中上方邮箱手动复制。",
+    note: "构间 MONO 为虚构演示事务所。", credit: "建筑与空间 / ARCHITECTURE & SPACE",
+  },
+  assets: {
+    architecture: { src: "/assets/architecture.jpg", alt: "从地面仰望层叠的玻璃办公楼立面，阴云映在幕墙上", width: 1800, height: 1200 },
+    interior: { src: "/assets/interior.jpg", alt: "日光照进摆有白色扶手椅、棕色沙发和绿色植物的客厅", width: 1800, height: 1350 },
+    forest: { src: "/assets/forest.jpg", alt: "阳光穿过高大的林木，照在通向森林深处的土路上", width: 1800, height: 1199 },
+  },
+} as const;

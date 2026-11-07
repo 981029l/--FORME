@@ -1,0 +1,165 @@
+
+> forme-template-library@0.1.0 build
+> node scripts/package-kits.mjs && next build
+
+[
+  {
+    "slug": "architecture",
+    "bytes": 1747916,
+    "files": 23
+  },
+  {
+    "slug": "botanical",
+    "bytes": 1472546,
+    "files": 22
+  },
+  {
+    "slug": "cafe",
+    "bytes": 1154891,
+    "files": 22
+  },
+  {
+    "slug": "ceramic",
+    "bytes": 477440,
+    "files": 22
+  },
+  {
+    "slug": "cinema",
+    "bytes": 6006174,
+    "files": 36
+  },
+  {
+    "slug": "dashboard",
+    "bytes": 49751,
+    "files": 20
+  },
+  {
+    "slug": "depth",
+    "bytes": 6127522,
+    "files": 35
+  },
+  {
+    "slug": "developer",
+    "bytes": 189174,
+    "files": 21
+  },
+  {
+    "slug": "doodle",
+    "bytes": 60039,
+    "files": 22
+  },
+  {
+    "slug": "editorial",
+    "bytes": 1746031,
+    "files": 23
+  },
+  {
+    "slug": "education",
+    "bytes": 306539,
+    "files": 21
+  },
+  {
+    "slug": "experimental",
+    "bytes": 2087061,
+    "files": 23
+  },
+  {
+    "slug": "fashion",
+    "bytes": 558324,
+    "files": 22
+  },
+  {
+    "slug": "gallery",
+    "bytes": 1745684,
+    "files": 23
+  },
+  {
+    "slug": "hotel",
+    "bytes": 1450664,
+    "files": 24
+  },
+  {
+    "slug": "journal",
+    "bytes": 445786,
+    "files": 22
+  },
+  {
+    "slug": "museum",
+    "bytes": 1157984,
+    "files": 24
+  },
+  {
+    "slug": "music",
+    "bytes": 505672,
+    "files": 21
+  },
+  {
+    "slug": "playful",
+    "bytes": 49309,
+    "files": 20
+  },
+  {
+    "slug": "poster",
+    "bytes": 46753,
+    "files": 20
+  },
+  {
+    "slug": "product",
+    "bytes": 534798,
+    "files": 22
+  },
+  {
+    "slug": "software",
+    "bytes": 187161,
+    "files": 21
+  },
+  {
+    "slug": "travel",
+    "bytes": 557645,
+    "files": 22
+  },
+  {
+    "slug": "wellness",
+    "bytes": 814552,
+    "files": 23
+  }
+]
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 38ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 800ms
+  Running TypeScript ...
+  Finished TypeScript in 8.1s ...
+  Collecting page data using 12 workers ...
+  Generating static pages using 12 workers (0/105) ...
+  Generating static pages using 12 workers (26/105) 
+  Generating static pages using 12 workers (52/105) 
+  Generating static pages using 12 workers (78/105) 
+✓ Generating static pages using 12 workers (105/105) in 2.7s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /feedback
+├ ○ /guide
+├ ○ /icon.svg
+├   /preview/[slug]/[[...screen]]
+│ ├ ● /preview/editorial
+│ ├ ● /preview/editorial/project
+│ ├ ● /preview/editorial/about
+│ └ ● [+69 more paths]
+├ ○ /sources
+├ ○ /standards
+├ ○ /templates
+└   /templates/[slug]
+  ├ ● /templates/editorial
+  ├ ● /templates/gallery
+  ├ ● /templates/experimental
+  └ ● [+21 more paths]
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

@@ -1,0 +1,34 @@
+
+> forme-template-library@0.1.0 test
+> node --import tsx --test tests/catalog.test.mjs tests/package.test.mjs tests/kits.test.mjs
+
+✔ search matches trimmed Chinese tags and case-insensitive English names (1.4005ms)
+✔ category and favorite filters intersect rather than override each other (0.1668ms)
+✔ an unmatched query returns an empty list without changing source records (0.1697ms)
+✔ catalog, renderable kits and source directories stay in sync (5.6263ms)
+✔ editorial: complete independent export and navigation on every page (27.2318ms)
+✔ gallery: complete independent export and navigation on every page (19.5833ms)
+✔ experimental: complete independent export and navigation on every page (23.5662ms)
+✔ architecture: complete independent export and navigation on every page (19.7477ms)
+✔ ceramic: complete independent export and navigation on every page (20.9019ms)
+✔ fashion: complete independent export and navigation on every page (22.0338ms)
+✔ travel: complete independent export and navigation on every page (26.056ms)
+✔ poster: complete independent export and navigation on every page (20.8137ms)
+✔ product: complete independent export and navigation on every page (23.522ms)
+✔ software: complete independent export and navigation on every page (28.119ms)
+✔ cafe: complete independent export and navigation on every page (23.75ms)
+✔ music: complete independent export and navigation on every page (20.9649ms)
+✔ botanical: complete independent export and navigation on every page (24.7388ms)
+✔ developer: complete independent export and navigation on every page (28.0694ms)
+✔ museum: complete independent export and navigation on every page (24.0272ms)
+✔ a download contains the three working routes, editable source and local assets (20.8174ms)
+✔ download uses the exact preview template and carries no platform alias dependency (7.9039ms)
+✔ unknown kit names cannot escape the template directory (1.0056ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 884.109

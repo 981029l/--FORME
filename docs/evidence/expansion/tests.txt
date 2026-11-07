@@ -1,0 +1,28 @@
+
+> forme-template-library@0.1.0 test
+> node --import tsx --test tests/catalog.test.mjs tests/package.test.mjs tests/kits.test.mjs
+
+✔ search matches trimmed Chinese tags and case-insensitive English names (1.6893ms)
+✔ category and favorite filters intersect rather than override each other (0.2688ms)
+✔ an unmatched query returns an empty list without changing source records (0.2402ms)
+✔ catalog, renderable kits and source directories stay in sync (2.9956ms)
+✔ editorial: complete independent export and navigation on every page (24.7014ms)
+✔ gallery: complete independent export and navigation on every page (17.601ms)
+✔ experimental: complete independent export and navigation on every page (24.8038ms)
+✔ architecture: complete independent export and navigation on every page (20.3372ms)
+✔ ceramic: complete independent export and navigation on every page (20.3073ms)
+✔ fashion: complete independent export and navigation on every page (19.1004ms)
+✔ travel: complete independent export and navigation on every page (20.657ms)
+✔ poster: complete independent export and navigation on every page (20.612ms)
+✔ product: complete independent export and navigation on every page (24.9687ms)
+✔ a download contains the three working routes, editable source and local assets (19.489ms)
+✔ download uses the exact preview template and carries no platform alias dependency (11.82ms)
+✔ unknown kit names cannot escape the template directory (2.7486ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 868.9045

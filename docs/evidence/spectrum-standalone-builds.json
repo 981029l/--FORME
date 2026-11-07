@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "hotel",
+    "packageSha256": "a491fc5ece862a4a2e27870ba9f84a51beaa1ba9a508a1433d84423e41d8fa23",
+    "install": 0,
+    "build": 0,
+    "buildId": "dEf8SWGs6LKtYPh3UGrun"
+  },
+  {
+    "slug": "dashboard",
+    "packageSha256": "cb06ee1dca71116e80c01969dee49ca43b0edc1cbb4206718ded33e25d7601a3",
+    "install": 0,
+    "build": 0,
+    "buildId": "ACqndddgOQSg4_fqAMlw7"
+  },
+  {
+    "slug": "journal",
+    "packageSha256": "05aa460f0dd6bafa15a250384f72999779b65ccab3d724035f38e62033d269c8",
+    "install": 0,
+    "build": 0,
+    "buildId": "Jxeo3VnLvzfXP0ytjqmJE"
+  },
+  {
+    "slug": "wellness",
+    "packageSha256": "e24446779482cbb08775b483a4bfcd45bf8710444d33f8ed1516a343214f7ffe",
+    "install": 0,
+    "build": 0,
+    "buildId": "cPLqhK4I7UMLrkCdbh9FP"
+  },
+  {
+    "slug": "playful",
+    "packageSha256": "a208d33e28dc9d6ae5b0bebc0b8392dd0acc80f28ee48379b2c53e2b9517eaf8",
+    "install": 0,
+    "build": 0,
+    "buildId": "gj3RicBnrlr_E1zXov-Ab"
+  },
+  {
+    "slug": "education",
+    "packageSha256": "1d0eed9beb56ae7ce71c93b857ba7631ffd5f742b7c834fcf94402f563893000",
+    "install": 0,
+    "build": 0,
+    "buildId": "kKwqxRA4iny3RpnAygqc1"
+  }
+]

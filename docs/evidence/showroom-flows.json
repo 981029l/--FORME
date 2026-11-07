@@ -1,0 +1,152 @@
+{
+  "checkedAt": "2026-11-06T20:45:17.266Z",
+  "base": "http://127.0.0.1:3000",
+  "checks": [
+    {
+      "name": "First page has 12 of 24",
+      "pass": true
+    },
+    {
+      "name": "Curated starts at depth",
+      "pass": true
+    },
+    {
+      "name": "Second page has 12 and starts product",
+      "pass": true
+    },
+    {
+      "name": "Pagination returns focus to result heading",
+      "pass": true
+    },
+    {
+      "name": "Search resets page and finds DEPTH",
+      "pass": true
+    },
+    {
+      "name": "Reload retains query",
+      "pass": true
+    },
+    {
+      "name": "Query and category intersect with empty state",
+      "pass": true
+    },
+    {
+      "name": "Name sort alphabetical",
+      "pass": true
+    },
+    {
+      "name": "Latest sort second is doodle",
+      "pass": true
+    },
+    {
+      "name": "Escape clears query and retains focus",
+      "pass": true
+    },
+    {
+      "name": "Favorite filter includes saved template",
+      "pass": true
+    },
+    {
+      "name": "Favorites persist after reload",
+      "pass": true
+    },
+    {
+      "name": "Removing last favorite has empty state",
+      "pass": true
+    },
+    {
+      "name": "Preview one iframe and locked body",
+      "pass": true
+    },
+    {
+      "name": "Quick mobile viewport 390",
+      "pass": true
+    },
+    {
+      "name": "Quick desktop viewport 1440",
+      "pass": true
+    },
+    {
+      "name": "Escape in iframe closes and restores focus",
+      "pass": true
+    },
+    {
+      "name": "Close button restores focus",
+      "pass": true
+    },
+    {
+      "name": "Backdrop closes preview",
+      "pass": true
+    },
+    {
+      "name": "Detail carries safe return URL",
+      "pass": true
+    },
+    {
+      "name": "Modal navigation releases body lock",
+      "pass": true
+    },
+    {
+      "name": "Detail project tab changes source",
+      "pass": true
+    },
+    {
+      "name": "Detail about tab changes source",
+      "pass": true
+    },
+    {
+      "name": "Detail mobile viewport 390",
+      "pass": true
+    },
+    {
+      "name": "Custom return restores filter page and scroll",
+      "pass": true,
+      "detail": {
+        "y": 1007,
+        "returned": 1007,
+        "url": "http://127.0.0.1:3000/templates?sort=latest&page=2"
+      }
+    },
+    {
+      "name": "Browser Back restores page and scroll",
+      "pass": true,
+      "detail": {
+        "y": 1007,
+        "returned": 1007
+      }
+    },
+    {
+      "name": "Legacy hash opens catalog",
+      "pass": true
+    },
+    {
+      "name": "Legacy favorites preserved",
+      "pass": true
+    },
+    {
+      "name": "Untrusted return rejected",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu opens",
+      "pass": true
+    },
+    {
+      "name": "Mobile menu closes on navigation",
+      "pass": true
+    },
+    {
+      "name": "Theme light selectable",
+      "pass": true
+    },
+    {
+      "name": "Theme dark selectable",
+      "pass": true
+    },
+    {
+      "name": "Theme system selectable",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

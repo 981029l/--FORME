@@ -1,0 +1,4 @@
+{
+  "dependencies": ["three"],
+  "devDependencies": ["@types/three"]
+}

@@ -1,0 +1,18 @@
+@font-face { font-family: "Manrope"; src: url("/assets/manrope.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
+:root {
+  --font-display: "Manrope", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --font-body: "Manrope", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --surface: #fbfbf8; --surface-alt: #f0f0eb; --surface-raised: #ffffff;
+  --ink: #21221e; --muted: #686b62; --line: #dddfd5; --accent: #d7ed8b;
+  --accent-ink: #262f15; --radius: 12px; --pill: 100px;
+  --control-height: 46px;
+  --max-width: 1360px; --gutter: clamp(22px, 4.5vw, 72px);
+  --layer-nav: 20; --layer-dialog: 40; --ease: cubic-bezier(.2,.7,.2,1);
+}
+html[data-theme="dark"] {
+  --surface: #191b17; --surface-alt: #252822; --surface-raised: #2c3028;
+  --ink: #f2f3ec; --muted: #b5bbad; --line: #41483b;
+}
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) { --surface: #191b17; --surface-alt: #252822; --surface-raised: #2c3028; --ink: #f2f3ec; --muted: #b5bbad; --line: #41483b; }
+}

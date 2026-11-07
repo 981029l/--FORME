@@ -1,0 +1,154 @@
+
+> forme-template-library@0.1.0 build
+> node scripts/package-kits.mjs && next build
+
+[
+  {
+    "slug": "architecture",
+    "bytes": 1747011,
+    "files": 23
+  },
+  {
+    "slug": "botanical",
+    "bytes": 1471641,
+    "files": 22
+  },
+  {
+    "slug": "cafe",
+    "bytes": 1153986,
+    "files": 22
+  },
+  {
+    "slug": "ceramic",
+    "bytes": 476535,
+    "files": 22
+  },
+  {
+    "slug": "cinema",
+    "bytes": 6005269,
+    "files": 36
+  },
+  {
+    "slug": "dashboard",
+    "bytes": 48846,
+    "files": 20
+  },
+  {
+    "slug": "developer",
+    "bytes": 188269,
+    "files": 21
+  },
+  {
+    "slug": "editorial",
+    "bytes": 1745126,
+    "files": 23
+  },
+  {
+    "slug": "education",
+    "bytes": 305634,
+    "files": 21
+  },
+  {
+    "slug": "experimental",
+    "bytes": 2086156,
+    "files": 23
+  },
+  {
+    "slug": "fashion",
+    "bytes": 557419,
+    "files": 22
+  },
+  {
+    "slug": "gallery",
+    "bytes": 1744779,
+    "files": 23
+  },
+  {
+    "slug": "hotel",
+    "bytes": 1449759,
+    "files": 24
+  },
+  {
+    "slug": "journal",
+    "bytes": 444881,
+    "files": 22
+  },
+  {
+    "slug": "museum",
+    "bytes": 1157079,
+    "files": 24
+  },
+  {
+    "slug": "music",
+    "bytes": 504767,
+    "files": 21
+  },
+  {
+    "slug": "playful",
+    "bytes": 48404,
+    "files": 20
+  },
+  {
+    "slug": "poster",
+    "bytes": 45848,
+    "files": 20
+  },
+  {
+    "slug": "product",
+    "bytes": 533893,
+    "files": 22
+  },
+  {
+    "slug": "software",
+    "bytes": 186256,
+    "files": 21
+  },
+  {
+    "slug": "travel",
+    "bytes": 556740,
+    "files": 22
+  },
+  {
+    "slug": "wellness",
+    "bytes": 813647,
+    "files": 23
+  }
+]
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 38ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.5s
+  Running TypeScript ...
+  Finished TypeScript in 11.7s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/96) ...
+  Generating static pages using 11 workers (24/96) 
+  Generating static pages using 11 workers (48/96) 
+  Generating static pages using 11 workers (72/96) 
+✓ Generating static pages using 11 workers (96/96) in 1981ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /feedback
+├ ○ /guide
+├ ○ /icon.svg
+├   /preview/[slug]/[[...screen]]
+│ ├ ● /preview/editorial
+│ ├ ● /preview/editorial/project
+│ ├ ● /preview/editorial/about
+│ └ ● [+63 more paths]
+├ ○ /sources
+├ ○ /standards
+└   /templates/[slug]
+  ├ ● /templates/editorial
+  ├ ● /templates/gallery
+  ├ ● /templates/experimental
+  └ ● [+19 more paths]
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

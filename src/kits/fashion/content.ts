@@ -1,0 +1,45 @@
+export const content = {
+  brand: "序列", wordmark: "CHAPTER", email: "hello@chapter.example",
+  nav: { home: "封面", project: "图版", about: "关于", contact: "联系" },
+  home: {
+    issue: "概念刊 · 第一辑", direction: "时装影像 / 视觉编辑",
+    title: "CHAPTER", subtitle: "衣物与身体之间，还有未被写下的故事。",
+    kicker: "本辑主题 / THE SOFT ORDER", feature: ["柔软的", "秩序"],
+    intro: "从一处褶皱开始，重新阅读身体、姿态与衣物的关系。",
+    primaryCaption: "图版 01 / 紫蓝光线中的肖像", secondaryCaption: "图版 02 / 日光下的酒红轮廓",
+    read: "翻阅本辑图版", editorialLabel: "编辑手记 / EDITOR’S NOTE",
+    statement: "风格，发生在\n表达与留白之间。",
+    editorial: "一组图像如何成为一个故事？序列从画面的距离、重复与停顿里寻找线索。我们关注衣物，也关注穿着者留给画面的呼吸。",
+    sequenceTitle: "让观看有自己的节奏。", sequenceText: "本辑以人物为起点，在完整的姿态与局部的线条之间切换。色彩连起图版，空白让每一个动作独立成立。",
+    sequenceLabel: "本辑阅读路径", sequence: ["先看姿态", "再看轮廓", "最后看留白"],
+    about: "认识序列", footnote: "虚构刊物与概念编辑，摄影素材来自外部公开来源。",
+  },
+  project: {
+    kicker: "CHAPTER / 概念图版 01", title: "柔软的秩序", subtitle: "衣物不是画面的终点。它是身体与空间开始对话的地方。",
+    facts: [{ label: "项目形式", value: "时装概念编辑" }, { label: "编辑范围", value: "艺术方向 / 图像排序 / 版式" }, { label: "素材说明", value: "外部摄影素材 · 非原创拍摄" }],
+    briefTitle: "把姿态放在叙事的前面。", brief: "这组演示项目探索时装影像的观看方式。我们没有为图像编造品牌故事，而是从既有画面的身体姿态、服装轮廓与背景关系出发，组织出一段缓慢、连贯的阅读。",
+    plateOne: "图版 01 / 紫蓝色光线，为肖像留下一层情绪。", plateTwo: "图版 02 / 酒红外套与购物袋，在日光下形成鲜明轮廓。",
+    processTitle: "一本图版的形成", process: [
+      { step: "01", title: "找到语气", text: "提取图像中的柔软线条与安静姿态，以浅粉纸色和深红文字建立共同的观看环境。" },
+      { step: "02", title: "编排距离", text: "交替使用完整画面与收紧的图版，让阅读在靠近与退后之间自然转换。" },
+      { step: "03", title: "留下余地", text: "保留图像周围的空白，减少解释性标题，让人的动作和衣物的形状先被看见。" },
+    ],
+    ending: "下一页，\n留给新的表达。", note: "这是虚构工作室的概念编辑项目。摄影使用外部素材，页面中的艺术方向与图版关系仅用于展示网站模板，不代表真实商业委托。", back: "返回本辑封面",
+  },
+  about: {
+    kicker: "关于序列 / THE PRACTICE", title: ["为图像", "找到语气。"], intro: "序列是一间虚构的独立视觉编辑工作室，关注时装、人物与当代生活中的表达方式。",
+    imageCaption: "视觉研究 / 人物、服装与画面之间的关系",
+    storyTitle: "每一张图像，\n都值得一次认真编排。", story: "我们将视觉编辑看作一种倾听：先理解图像已经说了什么，再决定文字、色彩与次序如何加入。作品不必使用同一种声音，但应当拥有清晰、完整的表达。",
+    servicesTitle: "工作范围", services: [
+      { title: "艺术方向", text: "梳理主题、情绪与视觉语言，形成便于团队共同使用的图像方向。", detail: "主题研究 / 视觉参考 / 风格定义" },
+      { title: "图像编辑", text: "从既有图像出发，调整取舍、顺序与观看距离，让系列建立自己的节奏。", detail: "选片逻辑 / 图版排序 / 系列叙事" },
+      { title: "出版与数字设计", text: "将编辑观点延伸到纸上与屏幕上，照顾每一页的阅读和停顿。", detail: "刊物版式 / 作品集 / 数字特刊" },
+    ],
+    methodTitle: "从共同理解开始。", method: "先讨论内容与读者，再整理视觉线索；在小范围的图版试验中确认语气，最后完成整套页面。每一步都围绕同一件事：让表达更加准确。", methodLink: "查看一组编辑实践",
+  },
+  contact: { kicker: "下一辑 / NEXT CHAPTER", title: "一起，写下一页。", intro: "关于一个新主题、一组图像，或一本还没有名字的刊物。", label: "演示联系邮箱", copy: "复制演示邮箱", copied: "演示邮箱已复制。", fallback: "暂时无法自动复制，请选中上方邮箱手动复制。", note: "虚构工作室 · 概念作品 · 外部摄影素材" },
+  assets: {
+    portrait: { src: "/assets/portrait.jpg", alt: "淡紫色背景前，蓝紫灯光照亮一位女性的面部与肩膀", width: 1600, height: 2000 },
+    fashion: { src: "/assets/fashion.jpg", alt: "日光下，一位戴墨镜的女性身穿酒红色外套并提着购物袋", width: 1600, height: 1067 },
+  },
+} as const;

@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-06T20:08:05.271Z",
+  "origin": "http://127.0.0.1:3000",
+  "checks": [
+    {
+      "name": "touch plants flower",
+      "pass": true
+    },
+    {
+      "name": "live motion preference reduce",
+      "pass": true
+    },
+    {
+      "name": "live motion preference no-preference",
+      "pass": true
+    },
+    {
+      "name": "live motion preference reduce",
+      "pass": true
+    },
+    {
+      "name": "live motion preference no-preference",
+      "pass": true
+    },
+    {
+      "name": "manual pause persists across preferences",
+      "pass": true
+    },
+    {
+      "name": "flower count bounded at nine",
+      "pass": true
+    },
+    {
+      "name": "native touch scroll moves camera",
+      "pass": true
+    },
+    {
+      "name": "mobile chapter 1",
+      "pass": true
+    },
+    {
+      "name": "mobile chapter 2",
+      "pass": true
+    },
+    {
+      "name": "mobile chapter 3",
+      "pass": true
+    },
+    {
+      "name": "mobile chapter 4",
+      "pass": true
+    },
+    {
+      "name": "mobile chapter 5",
+      "pass": true
+    },
+    {
+      "name": "mobile chapter 6",
+      "pass": true
+    },
+    {
+      "name": "mobile project returns to visible index",
+      "pass": true
+    },
+    {
+      "name": "mobile fresh chapter deep link",
+      "pass": true
+    },
+    {
+      "name": "closing text never overlaps 9000",
+      "pass": true,
+      "detail": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "closing text never overlaps 9750",
+      "pass": true,
+      "detail": [
+        0.343,
+        0
+      ]
+    },
+    {
+      "name": "closing text never overlaps 9900",
+      "pass": true,
+      "detail": [
+        0,
+        0.1
+      ]
+    },
+    {
+      "name": "closing text never overlaps 10100",
+      "pass": true,
+      "detail": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "mobile static chapters readable",
+      "pass": true
+    },
+    {
+      "name": "unsupported CSS 3D keeps readable chapters",
+      "pass": true
+    },
+    {
+      "name": "no JavaScript keeps six chapters",
+      "pass": true
+    },
+    {
+      "name": "desktop fresh chapter deep link",
+      "pass": true
+    },
+    {
+      "name": "catalog contains 24 templates",
+      "pass": true
+    },
+    {
+      "name": "catalog search 漫游",
+      "pass": true
+    },
+    {
+      "name": "catalog search RAMBLE",
+      "pass": true
+    },
+    {
+      "name": "catalog search 纵深",
+      "pass": true
+    },
+    {
+      "name": "catalog search DEPTH",
+      "pass": true
+    },
+    {
+      "name": "single card left aligned 1440",
+      "pass": true
+    },
+    {
+      "name": "single card left aligned 1920",
+      "pass": true
+    },
+    {
+      "name": "single card left aligned 2560",
+      "pass": true
+    },
+    {
+      "name": "new template can be bookmarked",
+      "pass": true
+    },
+    {
+      "name": "clear search restores all 24",
+      "pass": true
+    },
+    {
+      "name": "ramble in experimental category",
+      "pass": true
+    },
+    {
+      "name": "depth in gallery category",
+      "pass": true
+    },
+    {
+      "name": "doodle download HTTP 200",
+      "pass": true
+    },
+    {
+      "name": "depth download HTTP 200",
+      "pass": true
+    }
+  ],
+  "downloads": [
+    {
+      "slug": "doodle",
+      "status": 200,
+      "bytes": 59738,
+      "sha256": "f6b4f7bd1a7f6b9da733d0b91e757d6e83d4c3b7ce2f5d2f120074f457ba221b"
+    },
+    {
+      "slug": "depth",
+      "status": 200,
+      "bytes": 6127221,
+      "sha256": "0738b3523fea4ebd0340fed5273020f1a46c13378a52fcd291c2b77c99fe7a17"
+    }
+  ],
+  "errors": []
+}

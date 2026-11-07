@@ -1,0 +1,687 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T17:01:54.929Z",
+  "results": [
+    {
+      "viewport": 1920,
+      "expectedColumns": 3,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 280,
+          "y": 1074,
+          "width": 432,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 744,
+          "y": 1074,
+          "width": 432,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 1208,
+          "y": 1074,
+          "width": 432,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 280,
+          "y": 1543.5,
+          "width": 432,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 744,
+          "y": 1543.5,
+          "width": 432,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 1208,
+          "y": 1543.5,
+          "width": 432,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 280,
+          "y": 2013,
+          "width": 432,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 744,
+          "y": 2013,
+          "width": 432,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 1208,
+          "y": 2013,
+          "width": 432,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 1440,
+      "expectedColumns": 3,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 64.796875,
+          "y": 1074,
+          "width": 415.453125,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 512.25,
+          "y": 1074,
+          "width": 415.46875,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 959.71875,
+          "y": 1074,
+          "width": 415.453125,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 64.796875,
+          "y": 1531.09375,
+          "width": 415.453125,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 512.25,
+          "y": 1531.09375,
+          "width": 415.46875,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 959.71875,
+          "y": 1531.09375,
+          "width": 415.453125,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 64.796875,
+          "y": 1988.1875,
+          "width": 415.453125,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 512.25,
+          "y": 1988.1875,
+          "width": 415.46875,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 959.71875,
+          "y": 1988.1875,
+          "width": 415.453125,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 1101,
+      "expectedColumns": 3,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 49.546875,
+          "y": 1060.6875,
+          "width": 312.625,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 394.171875,
+          "y": 1060.6875,
+          "width": 312.640625,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 738.8125,
+          "y": 1060.6875,
+          "width": 312.625,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 49.546875,
+          "y": 1440.65625,
+          "width": 312.625,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 394.171875,
+          "y": 1440.65625,
+          "width": 312.640625,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 738.8125,
+          "y": 1440.65625,
+          "width": 312.625,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 49.546875,
+          "y": 1820.625,
+          "width": 312.625,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 394.171875,
+          "y": 1820.625,
+          "width": 312.640625,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 738.8125,
+          "y": 1820.625,
+          "width": 312.625,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 1100,
+      "expectedColumns": 2,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 49.5,
+          "y": 1031.640625,
+          "width": 484.5,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 566,
+          "y": 1031.640625,
+          "width": 484.5,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 49.5,
+          "y": 1540.515625,
+          "width": 484.5,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 566,
+          "y": 1540.515625,
+          "width": 484.5,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 49.5,
+          "y": 2049.390625,
+          "width": 484.5,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 566,
+          "y": 2049.390625,
+          "width": 484.5,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 49.5,
+          "y": 2558.265625,
+          "width": 484.5,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 566,
+          "y": 2558.265625,
+          "width": 484.5,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 49.5,
+          "y": 3067.140625,
+          "width": 484.5,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 1024,
+      "expectedColumns": 2,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 46.078125,
+          "y": 1028.125,
+          "width": 449.90625,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 527.984375,
+          "y": 1028.125,
+          "width": 449.921875,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 46.078125,
+          "y": 1511.0625,
+          "width": 449.90625,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 527.984375,
+          "y": 1511.0625,
+          "width": 449.921875,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 46.078125,
+          "y": 1994,
+          "width": 449.90625,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 527.984375,
+          "y": 1994,
+          "width": 449.921875,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 46.078125,
+          "y": 2476.9375,
+          "width": 449.90625,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 527.984375,
+          "y": 2476.9375,
+          "width": 449.921875,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 46.078125,
+          "y": 2959.875,
+          "width": 449.90625,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 768,
+      "expectedColumns": 2,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 34.5625,
+          "y": 1024,
+          "width": 333.4375,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 400,
+          "y": 1024,
+          "width": 333.4375,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 34.5625,
+          "y": 1419.578125,
+          "width": 333.4375,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 400,
+          "y": 1419.578125,
+          "width": 333.4375,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 34.5625,
+          "y": 1815.15625,
+          "width": 333.4375,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 400,
+          "y": 1815.15625,
+          "width": 333.4375,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 34.5625,
+          "y": 2210.734375,
+          "width": 333.4375,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 400,
+          "y": 2210.734375,
+          "width": 333.4375,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 34.5625,
+          "y": 2606.3125,
+          "width": 333.4375,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 767,
+      "expectedColumns": 1,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 34.515625,
+          "y": 1246.359375,
+          "width": 697.96875,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 34.515625,
+          "y": 1884.328125,
+          "width": 697.96875,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 34.515625,
+          "y": 2522.296875,
+          "width": 697.96875,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 34.515625,
+          "y": 3160.265625,
+          "width": 697.96875,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 34.515625,
+          "y": 3798.234375,
+          "width": 697.96875,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 34.515625,
+          "y": 4436.203125,
+          "width": 697.96875,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 34.515625,
+          "y": 5074.171875,
+          "width": 697.96875,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 34.515625,
+          "y": 5712.140625,
+          "width": 697.96875,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 34.515625,
+          "y": 6350.109375,
+          "width": 697.96875,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "expectedColumns": 1,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 22,
+          "y": 1192.359375,
+          "width": 346,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 22,
+          "y": 1566.359375,
+          "width": 346,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 22,
+          "y": 1940.359375,
+          "width": 346,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 22,
+          "y": 2314.359375,
+          "width": 346,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 22,
+          "y": 2688.359375,
+          "width": 346,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 22,
+          "y": 3062.359375,
+          "width": 346,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 22,
+          "y": 3436.359375,
+          "width": 346,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 22,
+          "y": 3810.359375,
+          "width": 346,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 22,
+          "y": 4184.359375,
+          "width": 346,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 320,
+      "expectedColumns": 1,
+      "count": 9,
+      "state": "all",
+      "cards": [
+        {
+          "x": 22,
+          "y": 1147.359375,
+          "width": 276,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 22,
+          "y": 1468.859375,
+          "width": 276,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 22,
+          "y": 1790.359375,
+          "width": 276,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 22,
+          "y": 2111.859375,
+          "width": 276,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 22,
+          "y": 2433.359375,
+          "width": 276,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 22,
+          "y": 2754.859375,
+          "width": 276,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 22,
+          "y": 3076.359375,
+          "width": 276,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 22,
+          "y": 3397.859375,
+          "width": 276,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 22,
+          "y": 3719.359375,
+          "width": 276,
+          "slug": "template-card card-product"
+        }
+      ]
+    },
+    {
+      "viewport": 1440,
+      "expectedColumns": 3,
+      "count": 3,
+      "state": "category",
+      "cards": [
+        {
+          "x": 64.796875,
+          "y": 457,
+          "width": 415.453125,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 512.25,
+          "y": 457,
+          "width": 415.46875,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 959.71875,
+          "y": 457,
+          "width": 415.453125,
+          "slug": "template-card card-ceramic"
+        }
+      ]
+    },
+    {
+      "viewport": 1440,
+      "expectedColumns": 3,
+      "count": 1,
+      "state": "single-search",
+      "cards": [
+        {
+          "x": 64.796875,
+          "y": 457,
+          "width": 415.453125,
+          "slug": "template-card card-ceramic"
+        }
+      ]
+    },
+    {
+      "viewport": 1440,
+      "expectedColumns": 3,
+      "count": 2,
+      "state": "two-favorites",
+      "cards": [
+        {
+          "x": 64.796875,
+          "y": 457,
+          "width": 415.453125,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 512.25,
+          "y": 457,
+          "width": 415.46875,
+          "slug": "template-card card-gallery"
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "expectedColumns": 1,
+      "count": 9,
+      "state": "mobile-after-filter",
+      "cards": [
+        {
+          "x": 22,
+          "y": 575.359375,
+          "width": 346,
+          "slug": "template-card card-editorial"
+        },
+        {
+          "x": 22,
+          "y": 949.359375,
+          "width": 346,
+          "slug": "template-card card-gallery"
+        },
+        {
+          "x": 22,
+          "y": 1323.359375,
+          "width": 346,
+          "slug": "template-card card-experimental"
+        },
+        {
+          "x": 22,
+          "y": 1697.359375,
+          "width": 346,
+          "slug": "template-card card-architecture"
+        },
+        {
+          "x": 22,
+          "y": 2071.359375,
+          "width": 346,
+          "slug": "template-card card-ceramic"
+        },
+        {
+          "x": 22,
+          "y": 2445.359375,
+          "width": 346,
+          "slug": "template-card card-fashion"
+        },
+        {
+          "x": 22,
+          "y": 2819.359375,
+          "width": 346,
+          "slug": "template-card card-travel"
+        },
+        {
+          "x": 22,
+          "y": 3193.359375,
+          "width": 346,
+          "slug": "template-card card-poster"
+        },
+        {
+          "x": 22,
+          "y": 3567.359375,
+          "width": 346,
+          "slug": "template-card card-product"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

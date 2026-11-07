@@ -1,0 +1,22 @@
+[
+  {
+    "page": "catalog",
+    "url": "http://127.0.0.1:3000/",
+    "time": "2026-11-06T18:33:24.202Z",
+    "lighthouse": "13.6.0",
+    "scores": {
+      "performance": 85,
+      "accessibility": 100
+    }
+  },
+  {
+    "page": "dashboard",
+    "url": "http://127.0.0.1:3000/preview/dashboard",
+    "time": "2026-11-06T18:33:43.767Z",
+    "lighthouse": "13.6.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100
+    }
+  }
+]

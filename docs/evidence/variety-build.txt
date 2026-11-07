@@ -1,0 +1,119 @@
+
+> forme-template-library@0.1.0 build
+> node scripts/package-kits.mjs && next build
+
+[
+  {
+    "slug": "architecture",
+    "bytes": 1745911,
+    "files": 23
+  },
+  {
+    "slug": "botanical",
+    "bytes": 1470541,
+    "files": 22
+  },
+  {
+    "slug": "cafe",
+    "bytes": 1152886,
+    "files": 22
+  },
+  {
+    "slug": "ceramic",
+    "bytes": 475435,
+    "files": 22
+  },
+  {
+    "slug": "developer",
+    "bytes": 187169,
+    "files": 21
+  },
+  {
+    "slug": "editorial",
+    "bytes": 1744026,
+    "files": 23
+  },
+  {
+    "slug": "experimental",
+    "bytes": 2085056,
+    "files": 23
+  },
+  {
+    "slug": "fashion",
+    "bytes": 556319,
+    "files": 22
+  },
+  {
+    "slug": "gallery",
+    "bytes": 1743679,
+    "files": 23
+  },
+  {
+    "slug": "museum",
+    "bytes": 1155979,
+    "files": 24
+  },
+  {
+    "slug": "music",
+    "bytes": 503667,
+    "files": 21
+  },
+  {
+    "slug": "poster",
+    "bytes": 44748,
+    "files": 20
+  },
+  {
+    "slug": "product",
+    "bytes": 532793,
+    "files": 22
+  },
+  {
+    "slug": "software",
+    "bytes": 185156,
+    "files": 21
+  },
+  {
+    "slug": "travel",
+    "bytes": 555640,
+    "files": 22
+  }
+]
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 35ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1465ms
+  Running TypeScript ...
+  Finished TypeScript in 6.9s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/68) ...
+  Generating static pages using 11 workers (17/68) 
+  Generating static pages using 11 workers (34/68) 
+  Generating static pages using 11 workers (51/68) 
+✓ Generating static pages using 11 workers (68/68) in 1519ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /feedback
+├ ○ /guide
+├ ○ /icon.svg
+├   /preview/[slug]/[[...screen]]
+│ ├ ● /preview/editorial
+│ ├ ● /preview/editorial/project
+│ ├ ● /preview/editorial/about
+│ └ ● [+42 more paths]
+├ ○ /sources
+├ ○ /standards
+└   /templates/[slug]
+  ├ ● /templates/editorial
+  ├ ● /templates/gallery
+  ├ ● /templates/experimental
+  └ ● [+12 more paths]
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

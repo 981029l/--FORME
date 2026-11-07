@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "doodle",
+    "checkedAt": "2026-11-06T20:06:24.879777+00:00",
+    "sha256": "f6b4f7bd1a7f6b9da733d0b91e757d6e83d4c3b7ce2f5d2f120074f457ba221b",
+    "sourceBytesMatch": true,
+    "declaredDependenciesMatch": true,
+    "install": 0,
+    "build": 0
+  },
+  {
+    "slug": "depth",
+    "checkedAt": "2026-11-06T20:06:24.972200+00:00",
+    "sha256": "0738b3523fea4ebd0340fed5273020f1a46c13378a52fcd291c2b77c99fe7a17",
+    "sourceBytesMatch": true,
+    "declaredDependenciesMatch": true,
+    "install": 0,
+    "build": 0
+  }
+]

@@ -1,0 +1,728 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T16:39:32.725Z",
+  "results": [
+    {
+      "route": "/preview/editorial",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/editorial/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/editorial/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/editorial",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/gallery",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/gallery/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/gallery/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/gallery",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/experimental",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/experimental/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/experimental/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/experimental",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/architecture",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/architecture/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/architecture/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/architecture",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/ceramic",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/ceramic/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/ceramic/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/ceramic",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/fashion",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/fashion/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/fashion/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/fashion",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/travel",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/travel/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/travel/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/travel",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/poster",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/poster/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/poster/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/poster",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/product",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/product/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/product/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/product",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/editorial",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/editorial/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/editorial/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/editorial",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/gallery",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/gallery/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/gallery/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/gallery",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/experimental",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/experimental/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/experimental/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/experimental",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/architecture",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/architecture/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/architecture/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/architecture",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/ceramic",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/ceramic/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/ceramic/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/ceramic",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/fashion",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/fashion/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/fashion/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/fashion",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/travel",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/travel/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/travel/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/travel",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/poster",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/poster/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/poster/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/poster",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/product",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/product/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/product/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/product",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

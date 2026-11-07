@@ -1,0 +1,56 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T16:38:54.975Z",
+  "flows": [
+    {
+      "flow": "catalog",
+      "cards": 9,
+      "perCategory": 3,
+      "chineseEnglishSearch": true,
+      "favoriteReload": true
+    },
+    {
+      "flow": "architecture",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "ceramic",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "fashion",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "travel",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "poster",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "product",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    }
+  ],
+  "errors": []
+}

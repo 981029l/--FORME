@@ -1,0 +1,18 @@
+
+> forme-template-library@0.1.0 test
+> node --import tsx --test tests/catalog.test.mjs tests/package.test.mjs
+
+✔ search matches trimmed Chinese tags and case-insensitive English names (6.0603ms)
+✔ category and favorite filters intersect rather than override each other (0.2656ms)
+✔ an unmatched query returns an empty list without changing source records (0.2365ms)
+✔ a download contains the three working routes, editable source and local assets (32.2697ms)
+✔ download uses the exact preview template and carries no platform alias dependency (16.4413ms)
+✔ unknown kit names cannot escape the template directory (1.1377ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 549.3689

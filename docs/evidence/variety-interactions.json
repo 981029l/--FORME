@@ -1,0 +1,13 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T17:39:46.121Z",
+  "checks": [
+    "software: task state, filter intersection, empty view and reset",
+    "developer: file selection/copy, trimmed case-insensitive search and empty recovery",
+    "cafe: menu categories and 20g x 17 brewing calculation",
+    "botanical: light recommendations and keyboard disclosure",
+    "music: date/type intersection, empty recovery and programme details",
+    "museum: room content, keyboard FAQ and exhibition anchor"
+  ],
+  "errors": []
+}

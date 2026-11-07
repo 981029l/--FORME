@@ -1,0 +1,149 @@
+
+> forme-template-library@0.1.0 build
+> node scripts/package-kits.mjs && next build
+
+[
+  {
+    "slug": "architecture",
+    "bytes": 1746379,
+    "files": 23
+  },
+  {
+    "slug": "botanical",
+    "bytes": 1471009,
+    "files": 22
+  },
+  {
+    "slug": "cafe",
+    "bytes": 1153354,
+    "files": 22
+  },
+  {
+    "slug": "ceramic",
+    "bytes": 475903,
+    "files": 22
+  },
+  {
+    "slug": "dashboard",
+    "bytes": 48214,
+    "files": 20
+  },
+  {
+    "slug": "developer",
+    "bytes": 187637,
+    "files": 21
+  },
+  {
+    "slug": "editorial",
+    "bytes": 1744494,
+    "files": 23
+  },
+  {
+    "slug": "education",
+    "bytes": 305002,
+    "files": 21
+  },
+  {
+    "slug": "experimental",
+    "bytes": 2085524,
+    "files": 23
+  },
+  {
+    "slug": "fashion",
+    "bytes": 556787,
+    "files": 22
+  },
+  {
+    "slug": "gallery",
+    "bytes": 1744147,
+    "files": 23
+  },
+  {
+    "slug": "hotel",
+    "bytes": 1449127,
+    "files": 24
+  },
+  {
+    "slug": "journal",
+    "bytes": 444249,
+    "files": 22
+  },
+  {
+    "slug": "museum",
+    "bytes": 1156447,
+    "files": 24
+  },
+  {
+    "slug": "music",
+    "bytes": 504135,
+    "files": 21
+  },
+  {
+    "slug": "playful",
+    "bytes": 47772,
+    "files": 20
+  },
+  {
+    "slug": "poster",
+    "bytes": 45216,
+    "files": 20
+  },
+  {
+    "slug": "product",
+    "bytes": 533261,
+    "files": 22
+  },
+  {
+    "slug": "software",
+    "bytes": 185624,
+    "files": 21
+  },
+  {
+    "slug": "travel",
+    "bytes": 556108,
+    "files": 22
+  },
+  {
+    "slug": "wellness",
+    "bytes": 813015,
+    "files": 23
+  }
+]
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 40ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1303ms
+  Running TypeScript ...
+  Finished TypeScript in 6.9s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/92) ...
+  Generating static pages using 11 workers (23/92) 
+  Generating static pages using 11 workers (46/92) 
+  Generating static pages using 11 workers (69/92) 
+✓ Generating static pages using 11 workers (92/92) in 2.9s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /feedback
+├ ○ /guide
+├ ○ /icon.svg
+├   /preview/[slug]/[[...screen]]
+│ ├ ● /preview/editorial
+│ ├ ● /preview/editorial/project
+│ ├ ● /preview/editorial/about
+│ └ ● [+60 more paths]
+├ ○ /sources
+├ ○ /standards
+└   /templates/[slug]
+  ├ ● /templates/editorial
+  ├ ● /templates/gallery
+  ├ ● /templates/experimental
+  └ ● [+18 more paths]
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

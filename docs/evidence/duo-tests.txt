@@ -1,0 +1,63 @@
+
+> forme-template-library@0.1.0 test
+> node --import tsx --test tests/catalog.test.mjs tests/package.test.mjs tests/kits.test.mjs
+
+✔ search matches trimmed Chinese tags and case-insensitive English names (4.2393ms)
+✔ category and favorite filters intersect rather than override each other (0.4585ms)
+✔ an unmatched query returns an empty list without changing source records (0.5525ms)
+✔ catalog, renderable kits and source directories stay in sync (10.767ms)
+✔ editorial: complete independent export and navigation on every page (53.6826ms)
+✔ gallery: complete independent export and navigation on every page (37.2164ms)
+✔ experimental: complete independent export and navigation on every page (42.3362ms)
+✔ architecture: complete independent export and navigation on every page (39.2532ms)
+✔ ceramic: complete independent export and navigation on every page (49.674ms)
+✔ fashion: complete independent export and navigation on every page (55.2587ms)
+✔ travel: complete independent export and navigation on every page (54.2011ms)
+✔ poster: complete independent export and navigation on every page (54.6068ms)
+✔ product: complete independent export and navigation on every page (45.2176ms)
+✔ software: complete independent export and navigation on every page (61.3251ms)
+✔ cafe: complete independent export and navigation on every page (76.0424ms)
+✔ music: complete independent export and navigation on every page (78.6571ms)
+✔ botanical: complete independent export and navigation on every page (52.0051ms)
+✔ developer: complete independent export and navigation on every page (58.3148ms)
+✔ museum: complete independent export and navigation on every page (52.0437ms)
+✔ hotel: complete independent export and navigation on every page (79.7206ms)
+✔ dashboard: complete independent export and navigation on every page (76.9502ms)
+✔ journal: complete independent export and navigation on every page (43.7116ms)
+✔ wellness: complete independent export and navigation on every page (54.084ms)
+✔ playful: complete independent export and navigation on every page (145.8446ms)
+✔ education: complete independent export and navigation on every page (57.5967ms)
+✔ cinema: complete independent export and navigation on every page (53.8374ms)
+✔ doodle: complete independent export and navigation on every page (77.4906ms)
+✔ depth: complete independent export and navigation on every page (112.4538ms)
+✔ a download contains the three working routes, editable source and local assets (30.6166ms)
+✔ download uses the exact preview template and carries no platform alias dependency (15.972ms)
+✔ unknown kit names cannot escape the template directory (3.2906ms)
+✔ download copies local source helpers exactly and includes their referenced assets (111.3965ms)
+✔ declared dependencies use exact specs from the matching root package sections (50.7195ms)
+✔ old kits do not acquire optional dependencies from the root project (7.3414ms)
+▶ invalid dependency declarations fail with an actionable kit-specific error
+  ✔ { (40.7353ms)
+  ✔ null (49.8962ms)
+  ✔ [] (37.3818ms)
+  ✔ {"optionalDependencies":[]} (21.7365ms)
+  ✔ {"dependencies":"three"} (31.8816ms)
+  ✔ {"dependencies":[null]} (34.009ms)
+  ✔ {"dependencies":["missing-package"]} (44.3307ms)
+  ✔ {"dependencies":["@types/three"]} (40.8382ms)
+  ✔ {"devDependencies":["three"]} (42.4786ms)
+  ✔ {"dependencies":["__proto__"]} (37.1448ms)
+✔ invalid dependency declarations fail with an actionable kit-specific error (383.6932ms)
+▶ additional helpers do not make mandatory template source files optional
+  ✔ Template.tsx (31.1102ms)
+  ✔ content.ts (26.3934ms)
+  ✔ theme.css (25.8543ms)
+✔ additional helpers do not make mandatory template source files optional (84.3669ms)
+ℹ tests 49
+ℹ suites 0
+ℹ pass 49
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 29159.0464

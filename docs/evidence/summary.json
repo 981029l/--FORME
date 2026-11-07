@@ -1,0 +1,227 @@
+{
+  "recordedAt": "2026-11-06T16:04:10.538344+00:00",
+  "environment": {
+    "os": "Windows",
+    "node": "24.11.0",
+    "next": "16.4.5",
+    "react": "19.3.1"
+  },
+  "tests": {
+    "passed": 6,
+    "failed": 0,
+    "output": "tests.txt"
+  },
+  "typecheck": {
+    "exitCode": 0,
+    "output": "typecheck.txt"
+  },
+  "platform": {
+    "buildId": "ZOU6F9gKRHRmzRDrDEqcP",
+    "prerenderEntryCount": 20,
+    "prerenderEntries": [
+      "/",
+      "/_global-error",
+      "/_not-found",
+      "/feedback",
+      "/guide",
+      "/icon.svg",
+      "/preview/editorial",
+      "/preview/editorial/about",
+      "/preview/editorial/project",
+      "/preview/experimental",
+      "/preview/experimental/about",
+      "/preview/experimental/project",
+      "/preview/gallery",
+      "/preview/gallery/about",
+      "/preview/gallery/project",
+      "/sources",
+      "/standards",
+      "/templates/editorial",
+      "/templates/experimental",
+      "/templates/gallery"
+    ]
+  },
+  "standaloneKits": [
+    {
+      "slug": "editorial",
+      "bytes": 1742820,
+      "files": 23,
+      "sha256": "97d68b6ccf29d7283a9f88c9de4ab3efa2d670e8e3a12d20f6a87fa79b1b87bb",
+      "standaloneBuildId": "gUyv7-c0JzxY0ZV3ZqVrY",
+      "allExportedFileContentsMatchBuiltStandaloneDirectory": true,
+      "comparison": "Byte equality except JSON files with equivalent parsed values; formatting and key order may differ.",
+      "jsonFormattingDifferences": [
+        "tsconfig.json"
+      ]
+    },
+    {
+      "slug": "gallery",
+      "bytes": 1742473,
+      "files": 23,
+      "sha256": "de9f81d00482b744155680ced816f1f2c456ff24370022a5f9b3744da488ce8b",
+      "standaloneBuildId": "BqG4mWT-Mv4sX14KeDh7L",
+      "allExportedFileContentsMatchBuiltStandaloneDirectory": true,
+      "comparison": "Byte equality except JSON files with equivalent parsed values; formatting and key order may differ.",
+      "jsonFormattingDifferences": [
+        "tsconfig.json"
+      ]
+    },
+    {
+      "slug": "experimental",
+      "bytes": 2083850,
+      "files": 23,
+      "sha256": "eeeebb04c7532ea29810e3a425cda623e935b2c659db4b20f03d48141d27f2c6",
+      "standaloneBuildId": "NR9kt-n0YSCM9rTZvYOcl",
+      "allExportedFileContentsMatchBuiltStandaloneDirectory": true,
+      "comparison": "Byte equality except JSON files with equivalent parsed values; formatting and key order may differ.",
+      "jsonFormattingDifferences": [
+        "tsconfig.json"
+      ]
+    }
+  ],
+  "browserChecks": {
+    "source": "Checks executed during this development session; see verification.md for scope and limitations.",
+    "routeViewportCases": 30,
+    "viewportWidths": [
+      1440,
+      390
+    ],
+    "finalProductionHomeConsoleErrors": 0
+  },
+  "lighthouse": {
+    "version": "13.6.0",
+    "fullAudit": {
+      "fetchTime": "2026-11-06T15:51:56.613Z",
+      "url": "http://127.0.0.1:3002/",
+      "scores": {
+        "performance": 99.0,
+        "accessibility": 96.0,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "largest-contentful-paint": "0.9 s",
+        "cumulative-layout-shift": "0",
+        "total-blocking-time": "0 ms"
+      },
+      "config": {
+        "output": [
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "cli",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo"
+        ],
+        "skipAudits": null
+      }
+    },
+    "finalAccessibilityAudit": {
+      "fetchTime": "2026-11-06T15:59:09.376Z",
+      "score": 100,
+      "failedAudits": [],
+      "config": {
+        "output": [
+          "json"
+        ],
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 1000,
+        "pauseAfterLoadMs": 1000,
+        "networkQuietThresholdMs": 1000,
+        "cpuQuietThresholdMs": 1000,
+        "formFactor": "desktop",
+        "throttling": {
+          "rttMs": 40,
+          "throughputKbps": 10240,
+          "requestLatencyMs": 0,
+          "downloadThroughputKbps": 0,
+          "uploadThroughputKbps": 0,
+          "cpuSlowdownMultiplier": 1
+        },
+        "throttlingMethod": "simulate",
+        "screenEmulation": {
+          "mobile": false,
+          "width": 1350,
+          "height": 940,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "cli",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": null,
+        "onlyCategories": [
+          "accessibility"
+        ],
+        "skipAudits": null
+      }
+    }
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "checkedAt": "2026-11-06T20:08:42.645Z",
+  "origin": "http://127.0.0.1:3000",
+  "checks": [
+    {
+      "name": "doodle initial crowd",
+      "pass": true
+    },
+    {
+      "name": "crowd increases",
+      "pass": true
+    },
+    {
+      "name": "upper crowd bound",
+      "pass": true
+    },
+    {
+      "name": "crowd decreases",
+      "pass": true
+    },
+    {
+      "name": "lower crowd bound",
+      "pass": true
+    },
+    {
+      "name": "plant button adds a mark",
+      "pass": true
+    },
+    {
+      "name": "canvas click adds a mark",
+      "pass": true
+    },
+    {
+      "name": "doodle pause stops frames",
+      "pass": true,
+      "detail": {
+        "a": "17",
+        "b": "17",
+        "stopped": true
+      }
+    },
+    {
+      "name": "plant while paused draws once",
+      "pass": true,
+      "detail": {
+        "a": "18",
+        "b": "18",
+        "stopped": true
+      }
+    },
+    {
+      "name": "reset clears marks and keeps crowd",
+      "pass": true
+    },
+    {
+      "name": "keyboard plants",
+      "pass": true
+    },
+    {
+      "name": "keyboard resumes movement",
+      "pass": true,
+      "detail": {
+        "a": "24",
+        "b": "31",
+        "stopped": false
+      }
+    },
+    {
+      "name": "doodle reduced motion stops frames",
+      "pass": true,
+      "detail": {
+        "a": "33",
+        "b": "33",
+        "stopped": true
+      }
+    },
+    {
+      "name": "reduced mode keeps plant action",
+      "pass": true,
+      "detail": {
+        "a": "34",
+        "b": "34",
+        "stopped": true
+      }
+    },
+    {
+      "name": "four original ideas",
+      "pass": true
+    },
+    {
+      "name": "idea filter 日常物件",
+      "pass": true
+    },
+    {
+      "name": "idea filter 随手玩玩",
+      "pass": true
+    },
+    {
+      "name": "idea filter 想象空间",
+      "pass": true
+    },
+    {
+      "name": "idea filter 全部点子",
+      "pass": true
+    },
+    {
+      "name": "selected idea updates URL",
+      "pass": true
+    },
+    {
+      "name": "idea survives reload",
+      "pass": true
+    },
+    {
+      "name": "idea details collapse",
+      "pass": true
+    },
+    {
+      "name": "idea details expand",
+      "pass": true
+    },
+    {
+      "name": "next idea",
+      "pass": true
+    },
+    {
+      "name": "ramble email copied",
+      "pass": true
+    },
+    {
+      "name": "depth idle renderer sleeps",
+      "pass": true,
+      "detail": {
+        "a": "2",
+        "b": "2",
+        "stopped": true
+      }
+    },
+    {
+      "name": "wheel drives spatial camera",
+      "pass": true,
+      "detail": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.8, 0, 264.45, 1)"
+    },
+    {
+      "name": "chapter arrival",
+      "pass": true,
+      "detail": {
+        "camera": "3.51"
+      }
+    },
+    {
+      "name": "chapter form",
+      "pass": true,
+      "detail": {
+        "camera": "1796.43"
+      }
+    },
+    {
+      "name": "chapter tide",
+      "pass": true,
+      "detail": {
+        "camera": "3596.19"
+      }
+    },
+    {
+      "name": "chapter human",
+      "pass": true,
+      "detail": {
+        "camera": "5396.34"
+      }
+    },
+    {
+      "name": "chapter night",
+      "pass": true,
+      "detail": {
+        "camera": "7196.61"
+      }
+    },
+    {
+      "name": "chapter possibility",
+      "pass": true,
+      "detail": {
+        "camera": "8996.28"
+      }
+    },
+    {
+      "name": "skip reaches usable work index",
+      "pass": true
+    },
+    {
+      "name": "six work links",
+      "pass": true
+    },
+    {
+      "name": "depth project query selects work",
+      "pass": true
+    },
+    {
+      "name": "depth next project",
+      "pass": true
+    },
+    {
+      "name": "return targets work list",
+      "pass": true
+    },
+    {
+      "name": "replay returns to opening",
+      "pass": true
+    },
+    {
+      "name": "reduced mode shows all six chapters",
+      "pass": true
+    },
+    {
+      "name": "static mode stops rendering",
+      "pass": true,
+      "detail": {
+        "a": "88",
+        "b": "88",
+        "stopped": true
+      }
+    },
+    {
+      "name": "static layout has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "depth email copied",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

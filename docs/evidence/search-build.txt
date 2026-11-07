@@ -1,0 +1,89 @@
+
+> forme-template-library@0.1.0 build
+> node scripts/package-kits.mjs && next build
+
+[
+  {
+    "slug": "architecture",
+    "bytes": 1745392,
+    "files": 23
+  },
+  {
+    "slug": "ceramic",
+    "bytes": 474916,
+    "files": 22
+  },
+  {
+    "slug": "editorial",
+    "bytes": 1743507,
+    "files": 23
+  },
+  {
+    "slug": "experimental",
+    "bytes": 2084537,
+    "files": 23
+  },
+  {
+    "slug": "fashion",
+    "bytes": 555800,
+    "files": 22
+  },
+  {
+    "slug": "gallery",
+    "bytes": 1743160,
+    "files": 23
+  },
+  {
+    "slug": "poster",
+    "bytes": 44229,
+    "files": 20
+  },
+  {
+    "slug": "product",
+    "bytes": 532274,
+    "files": 22
+  },
+  {
+    "slug": "travel",
+    "bytes": 555121,
+    "files": 22
+  }
+]
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 34ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 975ms
+  Running TypeScript ...
+  Finished TypeScript in 6.2s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/44) ...
+  Generating static pages using 11 workers (11/44) 
+  Generating static pages using 11 workers (22/44) 
+  Generating static pages using 11 workers (33/44) 
+✓ Generating static pages using 11 workers (44/44) in 1897ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /feedback
+├ ○ /guide
+├ ○ /icon.svg
+├   /preview/[slug]/[[...screen]]
+│ ├ ● /preview/editorial
+│ ├ ● /preview/editorial/project
+│ ├ ● /preview/editorial/about
+│ └ ● [+24 more paths]
+├ ○ /sources
+├ ○ /standards
+└   /templates/[slug]
+  ├ ● /templates/editorial
+  ├ ● /templates/gallery
+  ├ ● /templates/experimental
+  └ ● [+6 more paths]
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

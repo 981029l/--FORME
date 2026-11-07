@@ -1,0 +1,300 @@
+{
+  "checkedAt": "2026-11-06T19:07:48.820Z",
+  "origin": "http://127.0.0.1:3000",
+  "pages": [
+    {
+      "route": "/preview/cinema",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/project?film=paper-distance",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/templates/cinema",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/project?film=paper-distance",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/templates/cinema",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/project?film=paper-distance",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/templates/cinema",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/project?film=paper-distance",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/preview/cinema/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    },
+    {
+      "route": "/templates/cinema",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "broken": [],
+      "violations": [],
+      "pass": true
+    }
+  ],
+  "flows": [
+    {
+      "name": "keyboard ArrowRight",
+      "pass": true,
+      "detail": "under-canopy"
+    },
+    {
+      "name": "keyboard ArrowLeft",
+      "pass": true,
+      "detail": "after-tide"
+    },
+    {
+      "name": "keyboard End",
+      "pass": true,
+      "detail": "beyond-the-map"
+    },
+    {
+      "name": "keyboard Home",
+      "pass": true,
+      "detail": "after-tide"
+    },
+    {
+      "name": "flip back",
+      "pass": true
+    },
+    {
+      "name": "flip front",
+      "pass": true
+    },
+    {
+      "name": "pause stops continuous frames",
+      "pass": true,
+      "detail": {
+        "a": "13",
+        "b": "13"
+      }
+    },
+    {
+      "name": "resume restarts frames",
+      "pass": true,
+      "detail": {
+        "d": "20",
+        "e": "39"
+      }
+    },
+    {
+      "name": "wheel next",
+      "pass": true,
+      "detail": "under-canopy"
+    },
+    {
+      "name": "mouse drag changes film",
+      "pass": true,
+      "detail": "folds-of-city"
+    },
+    {
+      "name": "index opened",
+      "pass": true
+    },
+    {
+      "name": "index focus previews film",
+      "pass": true
+    },
+    {
+      "name": "index Esc restores focus",
+      "pass": true
+    },
+    {
+      "name": "index expanded state reset",
+      "pass": true
+    },
+    {
+      "name": "index navigates to selected film",
+      "pass": true
+    },
+    {
+      "name": "detail expands images",
+      "pass": true
+    },
+    {
+      "name": "detail collapses images",
+      "pass": true
+    },
+    {
+      "name": "return preserves selected film",
+      "pass": true,
+      "detail": "folds-of-city"
+    },
+    {
+      "name": "Enter opens selected film",
+      "pass": true
+    },
+    {
+      "name": "next film detail",
+      "pass": true
+    },
+    {
+      "name": "copy example email",
+      "pass": true
+    },
+    {
+      "name": "reduced motion stops continuous frames",
+      "pass": true,
+      "detail": {
+        "f": "1",
+        "g": "1"
+      }
+    },
+    {
+      "name": "reduced motion selection works",
+      "pass": true
+    },
+    {
+      "name": "reduced motion flip works",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

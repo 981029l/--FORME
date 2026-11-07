@@ -1,0 +1,137 @@
+{
+  "recordedAt": "2026-11-06T16:42:24.892267+00:00",
+  "nodeVersion": "24.11.0",
+  "templateCount": 9,
+  "templatePageCount": 27,
+  "automatedTests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "platformBuildId": "zFVAp-3bWaUYEDKr2zFqY",
+  "prerenderEntryCount": 44,
+  "productionRouteViewportChecks": 72,
+  "productionFailures": 0,
+  "productionBrowserErrors": 0,
+  "newRouteViewportChecks": 48,
+  "axeAuditedPreviewViewportCases": 36,
+  "axeReportedViolationsAfterScopedFixes": 0,
+  "interactionFlows": 7,
+  "sixDownloadsMatchServedZipHashes": true,
+  "newStandaloneExports": [
+    {
+      "slug": "architecture",
+      "files": 23,
+      "bytes": 1745392,
+      "sha256": "33ddb6908e89fa028dfefe3e832f2e314d83d9a2724177262f59baa49bdf07ab",
+      "matchesBuiltSource": true,
+      "jsonFormattingDifferences": [],
+      "install": 0,
+      "build": 0,
+      "buildId": "rO-zjBPOxk_8-GaKFMW4Y"
+    },
+    {
+      "slug": "ceramic",
+      "files": 22,
+      "bytes": 474916,
+      "sha256": "005b5fed80676702ca4a4b5bae8f75a89c60d4851cfe5b92427c405a9128a3c1",
+      "matchesBuiltSource": true,
+      "jsonFormattingDifferences": [],
+      "install": 0,
+      "build": 0,
+      "buildId": "M2-1nGmXcZS4TdtQqrCIr"
+    },
+    {
+      "slug": "fashion",
+      "files": 22,
+      "bytes": 555800,
+      "sha256": "6776f47997e23bf3bb5185bdd2b9ec4fa354cc8e6b0c519ba1af57a675df7021",
+      "matchesBuiltSource": true,
+      "jsonFormattingDifferences": [],
+      "install": 0,
+      "build": 0,
+      "buildId": "RNCEvnKfTsH9y1vRugXgB"
+    },
+    {
+      "slug": "travel",
+      "files": 22,
+      "bytes": 555121,
+      "sha256": "0923dcc3bb463df47a45887d998799dcef09d0e3079c55c2b37edcf562a218f6",
+      "matchesBuiltSource": true,
+      "jsonFormattingDifferences": [],
+      "install": 0,
+      "build": 0,
+      "buildId": "sC9JgCoITHQ60L2kbtCov"
+    },
+    {
+      "slug": "poster",
+      "files": 20,
+      "bytes": 44229,
+      "sha256": "4b8f8ef88c9f5dd166991fef43d2d4040a3d44f6a8dba21edde97733b89cdf6e",
+      "matchesBuiltSource": true,
+      "jsonFormattingDifferences": [],
+      "install": 0,
+      "build": 0,
+      "buildId": "Xth6-QXcFISItIJQDdLSI",
+      "rebuiltAfterFinalAccessibilityFix": true
+    },
+    {
+      "slug": "product",
+      "files": 22,
+      "bytes": 532274,
+      "sha256": "80b4e6bae68a84ef66e9deef15147ec32d2dbb38a21036550cf6649604490665",
+      "matchesBuiltSource": true,
+      "jsonFormattingDifferences": [],
+      "install": 0,
+      "build": 0,
+      "buildId": "QY2DE_VMwJttnEpVyV0b4"
+    }
+  ],
+  "originalThreeKitRuntimeSourcesUnchangedSincePriorIndependentBuilds": true,
+  "allDownloads": [
+    {
+      "slug": "architecture",
+      "bytes": 1745392,
+      "files": 23
+    },
+    {
+      "slug": "ceramic",
+      "bytes": 474916,
+      "files": 22
+    },
+    {
+      "slug": "editorial",
+      "bytes": 1743507,
+      "files": 23
+    },
+    {
+      "slug": "experimental",
+      "bytes": 2084537,
+      "files": 23
+    },
+    {
+      "slug": "fashion",
+      "bytes": 555800,
+      "files": 22
+    },
+    {
+      "slug": "gallery",
+      "bytes": 1743160,
+      "files": 23
+    },
+    {
+      "slug": "poster",
+      "bytes": 44229,
+      "files": 20
+    },
+    {
+      "slug": "product",
+      "bytes": 532274,
+      "files": 22
+    },
+    {
+      "slug": "travel",
+      "bytes": 555121,
+      "files": 22
+    }
+  ]
+}

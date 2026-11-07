@@ -1,0 +1,228 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T18:32:32.606Z",
+  "results": [
+    {
+      "route": "/preview/education",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/education",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/education",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/education",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/education",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/project",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/education",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/education",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/project",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/education/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/education",
+        "/preview/education/project",
+        "/preview/education/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/education",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

@@ -1,0 +1,199 @@
+.kit-architecture {
+  --mo-bg: #f5f5f2;
+  --mo-ink: #242624;
+  --mo-muted: #646861;
+  --mo-rule: #c7cbc4;
+  --mo-surface: #e9ebe5;
+  --mo-gutter: clamp(22px, 4.4vw, 76px);
+  --mo-section: clamp(76px, 9vw, 138px);
+  --mo-display: var(--font-display), "Arial Narrow", "Helvetica Neue", "Microsoft YaHei", sans-serif;
+  --mo-body: "PingFang SC", "Microsoft YaHei", sans-serif;
+  --mo-speed: 220ms;
+  background: var(--mo-bg);
+  color: var(--mo-ink);
+  font-family: var(--mo-body);
+  font-size: 15px;
+  line-height: 1.85;
+  min-height: 100dvh;
+}
+.kit-architecture *, .kit-architecture *::before, .kit-architecture *::after { box-sizing: border-box; }
+.kit-architecture :where(h1,h2,h3,p,figure,dl,dd) { margin: 0; }
+.kit-architecture a { color: inherit; text-decoration: none; }
+.kit-architecture button { font: inherit; color: inherit; }
+.kit-architecture :where(a,button):focus-visible { outline: 2px solid var(--mo-ink); outline-offset: 5px; }
+.kit-architecture img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.kit-architecture h1, .kit-architecture h2, .kit-architecture h3 { font-weight: 500; }
+.kit-architecture h1 { font-size: clamp(46px,7vw,104px); line-height: 1.2; letter-spacing: -.055em; }
+.kit-architecture h2 { font-size: clamp(29px,3.3vw,49px); line-height: 1.5; letter-spacing: -.045em; white-space: pre-line; }
+.kit-architecture .mo-meta { font-family: var(--mo-display); color: var(--mo-muted); font-size: 11px; letter-spacing: .055em; }
+.kit-architecture .mo-skip { position: absolute; left: var(--mo-gutter); top: 12px; z-index: 10; padding: 8px 16px; background: var(--mo-bg); transform: translateY(-180%); }
+.kit-architecture .mo-skip:focus { transform: translateY(0); }
+.kit-architecture .mo-header { height: 80px; margin-inline: var(--mo-gutter); border-bottom: 1px solid var(--mo-rule); display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.kit-architecture .mo-brand { display: flex; align-items: baseline; gap: 16px; line-height: 1; }
+.kit-architecture .mo-brand strong { font-family: var(--mo-display); font-size: 29px; font-weight: 800; letter-spacing: -.08em; }
+.kit-architecture .mo-brand > span { font-size: 13px; letter-spacing: .1em; }
+.kit-architecture .mo-header nav { display: flex; align-items: center; gap: 34px; font-size: 13px; }
+.kit-architecture .mo-header nav a { padding-block: 12px; }
+.kit-architecture .mo-header nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 7px; }
+.kit-architecture .mo-hero { padding: 32px var(--mo-gutter) 0; }
+.kit-architecture .mo-hero-heading { display: grid; grid-template-columns: minmax(0,1fr) 270px; gap: 36px; align-items: end; margin: 9px 0 36px; }
+.kit-architecture .mo-hero h1 > span:first-child { display: block; font-family: var(--mo-display); font-size: clamp(72px,12.3vw,180px); font-weight: 600; letter-spacing: -.095em; line-height: 1.12; }
+.kit-architecture .mo-hero h1 > span:last-child { display: block; margin-top: 10px; font-size: clamp(22px,2.1vw,31px); letter-spacing: -.035em; line-height: 1.5; }
+.kit-architecture .mo-hero-intro { padding-bottom: 3px; }
+.kit-architecture .mo-hero-intro > p { max-width: 25em; font-size: 13px; color: var(--mo-muted); }
+.kit-architecture .mo-link { display: inline-flex; justify-content: space-between; align-items: center; gap: 32px; border: 0; border-bottom: 1px solid var(--mo-ink); padding: 11px 0; background: transparent; width: fit-content; max-width: 100%; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.kit-architecture .mo-link > span { font-size: 21px; line-height: 1; transition: transform var(--mo-speed); }
+.kit-architecture .mo-link:hover > span { transform: translate(3px,-3px); }
+.kit-architecture .mo-hero .mo-link { margin-top: 13px; }
+.kit-architecture .mo-panorama img { aspect-ratio: 2.65; object-position: 50% 56%; }
+.kit-architecture figcaption { color: var(--mo-muted); font-size: 11px; padding-top: 12px; }
+.kit-architecture .mo-panorama figcaption { display: flex; justify-content: space-between; gap: 24px; }
+.kit-architecture .mo-work { padding: var(--mo-section) var(--mo-gutter) 0; }
+.kit-architecture .mo-section-heading { max-width: 46em; margin-bottom: 48px; }
+.kit-architecture .mo-section-heading p { margin-top: 22px; color: var(--mo-muted); max-width: 35em; }
+.kit-architecture .mo-index-layout { display: grid; grid-template-columns: minmax(0,.95fr) minmax(0,1fr); gap: 8%; }
+.kit-architecture .mo-index-image img { aspect-ratio: 1.32; }
+.kit-architecture .mo-index-top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 22px; }
+.kit-architecture .mo-index-top h3 { font-size: 16px; }
+.kit-architecture .mo-index-row { display: grid; grid-template-columns: 40px 1fr 28px; align-items: baseline; gap: 16px; border-top: 1px solid var(--mo-rule); padding: 25px 0; }
+.kit-architecture .mo-number { font-family: var(--mo-display); font-size: 11px; color: var(--mo-muted); }
+.kit-architecture .mo-index-row strong { font-size: clamp(20px,2.1vw,30px); font-weight: 400; letter-spacing: -.04em; }
+.kit-architecture .mo-index-row small { display: block; margin-top: 4px; font-size: 11px; color: var(--mo-muted); }
+.kit-architecture .mo-index-arrow { font-size: 26px; transition: transform var(--mo-speed); }
+.kit-architecture .mo-index-row:hover .mo-index-arrow { transform: translate(3px,-3px); }
+.kit-architecture .mo-belief { margin: var(--mo-section) var(--mo-gutter); border-top: 1px solid var(--mo-rule); padding-top: 52px; display: grid; grid-template-columns: 36% 1fr; gap: 7%; }
+.kit-architecture .mo-bracket { font-family: var(--mo-display); font-size: clamp(100px,15vw,220px); letter-spacing: -.1em; font-weight: 300; line-height: 1.1; }
+.kit-architecture .mo-belief p { color: var(--mo-muted); max-width: 34em; margin: 28px 0 22px; }
+.kit-architecture .mo-contact { background: var(--mo-surface); padding: 56px var(--mo-gutter) 24px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px 8%; }
+.kit-architecture .mo-contact-heading h2 { font-size: clamp(30px,3.3vw,48px); }
+.kit-architecture .mo-contact-heading p { margin-top: 18px; font-size: 13px; color: var(--mo-muted); }
+.kit-architecture .mo-contact-address > .mo-meta, .kit-architecture .mo-email { display: block; }
+.kit-architecture .mo-email { font-family: var(--mo-display); font-size: clamp(23px,3vw,43px); line-height: 1.5; letter-spacing: -.05em; overflow-wrap: anywhere; user-select: all; }
+.kit-architecture .mo-contact-address .mo-link { margin-top: 12px; }
+.kit-architecture .mo-status { min-height: 24px; padding-top: 8px; font-size: 12px; color: var(--mo-muted); }
+.kit-architecture .mo-footer-line { grid-column: 1 / -1; margin-top: 35px; border-top: 1px solid var(--mo-rule); padding-top: 18px; display: flex; justify-content: space-between; gap: 20px; font-size: 10px; color: var(--mo-muted); }
+.kit-architecture .mo-footer-line > span:first-child { color: var(--mo-ink); }
+.kit-architecture .mo-page-heading { padding: 60px var(--mo-gutter) 48px; }
+.kit-architecture .mo-page-heading h1 { display: flex; justify-content: space-between; gap: 24px; margin: 26px 0 20px; }
+.kit-architecture .mo-page-heading h1 span { font-family: var(--mo-display); font-weight: 300; letter-spacing: -.1em; }
+.kit-architecture .mo-page-heading > p:last-child { color: var(--mo-muted); }
+.kit-architecture .mo-project-cover { height: clamp(300px,42vw,630px); }
+.kit-architecture .mo-brief { display: grid; grid-template-columns: .85fr 1.15fr; gap: 12%; padding: 72px var(--mo-gutter) var(--mo-section); }
+.kit-architecture .mo-facts > div { margin-bottom: 25px; }
+.kit-architecture .mo-facts dt { font-size: 11px; color: var(--mo-muted); margin-bottom: 5px; }
+.kit-architecture .mo-facts dd { font-size: 14px; }
+.kit-architecture .mo-brief p { margin-top: 26px; color: var(--mo-muted); }
+.kit-architecture .mo-chapter { scroll-margin-top: 32px; }
+.kit-architecture .mo-city { margin: 0 var(--mo-gutter) 70px; border-top: 1px solid var(--mo-rule); padding-top: 35px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 12%; }
+.kit-architecture .mo-chapter-heading { display: flex; gap: 28px; }
+.kit-architecture .mo-chapter-number { display: block; font-family: var(--mo-display); font-size: 12px; color: var(--mo-muted); padding-top: 10px; }
+.kit-architecture .mo-chapter-subtitle { margin-top: 8px; font-size: 13px; }
+.kit-architecture .mo-city-copy { color: var(--mo-muted); }
+.kit-architecture .mo-city-copy .mo-meta { margin-top: 22px; }
+.kit-architecture .mo-dwelling { display: grid; grid-template-columns: 1.25fr 1fr; gap: 8%; margin: 0 var(--mo-gutter) var(--mo-section); align-items: center; }
+.kit-architecture .mo-dwelling > img { aspect-ratio: .94; }
+.kit-architecture .mo-dwelling h2, .kit-architecture .mo-landscape h2 { margin-top: 18px; }
+.kit-architecture .mo-chapter h3 { margin: 20px 0 16px; font-size: 16px; line-height: 1.7; }
+.kit-architecture .mo-dwelling p, .kit-architecture .mo-landscape p { color: var(--mo-muted); }
+.kit-architecture .mo-dwelling .mo-meta, .kit-architecture .mo-landscape .mo-meta { margin-top: 24px; }
+.kit-architecture .mo-landscape { display: grid; grid-template-columns: 1fr 1.25fr; gap: 8%; margin: 0 var(--mo-gutter) var(--mo-section); align-items: end; }
+.kit-architecture .mo-landscape img { aspect-ratio: 1.3; }
+.kit-architecture .mo-landscape-copy { max-width: 31em; }
+.kit-architecture .mo-method { margin: 0 var(--mo-gutter) 64px; padding-top: 38px; border-top: 1px solid var(--mo-rule); }
+.kit-architecture .mo-method h2 { font-size: 29px; }
+.kit-architecture .mo-method-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 7%; margin-top: 38px; }
+.kit-architecture .mo-method-list h3 { font-size: 21px; margin-bottom: 14px; }
+.kit-architecture .mo-method-list p { color: var(--mo-muted); font-size: 13px; }
+.kit-architecture .mo-project-end { margin: 0 var(--mo-gutter) var(--mo-section); display: flex; justify-content: space-between; align-items: start; gap: 36px; }
+.kit-architecture .mo-disclosure { color: var(--mo-muted); max-width: 54em; font-size: 11px; }
+.kit-architecture .mo-project-end .mo-link { flex-shrink: 0; }
+.kit-architecture .mo-about-heading { position: relative; padding: 54px var(--mo-gutter) 54px; }
+.kit-architecture .mo-about-heading h1 { margin-top: 27px; font-size: clamp(45px,6vw,90px); line-height: 1.45; }
+.kit-architecture .mo-about-heading h1 span { display: block; }
+.kit-architecture .mo-about-intro { margin: 32px 0 0 43%; max-width: 39em; color: var(--mo-muted); }
+.kit-architecture .mo-about-image { margin-left: var(--mo-gutter); width: calc(100% - var(--mo-gutter) * 2); }
+.kit-architecture .mo-about-image img { aspect-ratio: 2.35; object-position: 50% 50%; }
+.kit-architecture .mo-about-story { margin: var(--mo-section) var(--mo-gutter); display: grid; grid-template-columns: 1.15fr 1fr; gap: 12%; }
+.kit-architecture .mo-about-story > p { padding-top: 8px; color: var(--mo-muted); }
+.kit-architecture .mo-services { margin: 0 var(--mo-gutter) var(--mo-section); display: grid; grid-template-columns: .65fr 1fr; gap: 15%; }
+.kit-architecture .mo-services > h2 { font-size: 27px; }
+.kit-architecture .mo-service { border-top: 1px solid var(--mo-rule); padding: 22px 0 27px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px; }
+.kit-architecture .mo-service h3 { flex-shrink: 0; font-size: 21px; }
+.kit-architecture .mo-service p { font-size: 12px; color: var(--mo-muted); }
+.kit-architecture .mo-about-method { margin: 0 var(--mo-gutter) var(--mo-section); display: grid; grid-template-columns: 36% 1fr; gap: 7%; }
+.kit-architecture .mo-about-method p { margin-top: 26px; max-width: 34em; color: var(--mo-muted); }
+@media (min-width: 1600px) {
+  .kit-architecture { --mo-gutter: max(76px,calc((100vw - 1480px) / 2)); }
+}
+@media (max-width: 1023px) {
+  .kit-architecture .mo-hero-heading { grid-template-columns: minmax(0,1fr) 230px; gap: 20px; }
+  .kit-architecture .mo-hero h1 > span:first-child { font-size: 11.6vw; }
+  .kit-architecture .mo-index-layout { gap: 5%; }
+  .kit-architecture .mo-index-top { display: block; }
+  .kit-architecture .mo-index-top .mo-meta { display: block; margin-top: 4px; }
+  .kit-architecture .mo-service { display: block; }
+  .kit-architecture .mo-service p { margin-top: 9px; }
+}
+@media (max-width: 767px) {
+  .kit-architecture .mo-header { height: 74px; gap: 16px; }
+  .kit-architecture .mo-brand { gap: 10px; }
+  .kit-architecture .mo-brand strong { font-size: 24px; }
+  .kit-architecture .mo-brand > span { font-size: 11px; }
+  .kit-architecture .mo-header nav { gap: 15px; font-size: 12px; }
+  .kit-architecture .mo-header nav a:last-child span { display: none; }
+  .kit-architecture .mo-hero { padding-top: 26px; }
+  .kit-architecture .mo-hero-heading { grid-template-columns: 1fr; gap: 23px; margin: 16px 0 28px; }
+  .kit-architecture .mo-hero h1 > span:first-child { font-size: clamp(59px,15.7vw,116px); }
+  .kit-architecture .mo-hero h1 > span:last-child { font-size: 24px; margin-top: 14px; }
+  .kit-architecture .mo-hero-intro > p { max-width: 30em; }
+  .kit-architecture .mo-panorama img { aspect-ratio: 1.2; object-position: 50% 55%; }
+  .kit-architecture .mo-panorama figcaption { display: block; }
+  .kit-architecture .mo-panorama figcaption > span:last-child { display: none; }
+  .kit-architecture .mo-section-heading { margin-bottom: 32px; }
+  .kit-architecture .mo-index-layout { grid-template-columns: 1fr; gap: 32px; }
+  .kit-architecture .mo-index-top { display: flex; padding-bottom: 18px; }
+  .kit-architecture .mo-index-top .mo-meta { margin-top: 0; font-size: 10px; }
+  .kit-architecture .mo-index-row { padding: 22px 0; grid-template-columns: 25px 1fr 24px; }
+  .kit-architecture .mo-index-row strong { font-size: 25px; }
+  .kit-architecture .mo-belief { grid-template-columns: 1fr; gap: 22px; padding-top: 30px; }
+  .kit-architecture .mo-bracket { font-size: 94px; }
+  .kit-architecture .mo-contact { grid-template-columns: 1fr; gap: 34px; padding-top: 40px; }
+  .kit-architecture .mo-contact-heading p { margin-top: 13px; }
+  .kit-architecture .mo-email { font-size: 29px; }
+  .kit-architecture .mo-footer-line { margin-top: 5px; flex-wrap: wrap; gap: 10px 22px; }
+  .kit-architecture .mo-footer-line > span:last-child { width: 100%; }
+  .kit-architecture .mo-page-heading { padding-top: 36px; padding-bottom: 34px; }
+  .kit-architecture .mo-page-heading h1 { margin-top: 23px; }
+  .kit-architecture .mo-project-cover { height: 330px; }
+  .kit-architecture .mo-brief { grid-template-columns: 1fr; gap: 30px; padding-top: 36px; }
+  .kit-architecture .mo-facts { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; }
+  .kit-architecture .mo-facts > div { margin: 0; }
+  .kit-architecture .mo-facts > div:last-child { grid-column: 1 / -1; }
+  .kit-architecture .mo-city { grid-template-columns: 1fr; gap: 28px; margin-bottom: 46px; padding-top: 25px; }
+  .kit-architecture .mo-chapter-heading { gap: 18px; }
+  .kit-architecture .mo-dwelling, .kit-architecture .mo-landscape { grid-template-columns: 1fr; gap: 28px; }
+  .kit-architecture .mo-dwelling > img { aspect-ratio: 1.05; }
+  .kit-architecture .mo-landscape-copy { max-width: none; }
+  .kit-architecture .mo-landscape img { aspect-ratio: 1.15; }
+  .kit-architecture .mo-method-list { grid-template-columns: 1fr; gap: 28px; margin-top: 26px; }
+  .kit-architecture .mo-method-list h3 { margin-bottom: 8px; }
+  .kit-architecture .mo-project-end { flex-direction: column; gap: 25px; }
+  .kit-architecture .mo-about-heading { padding-top: 36px; padding-bottom: 35px; }
+  .kit-architecture .mo-about-heading h1 { font-size: clamp(39px,9.2vw,65px); }
+  .kit-architecture .mo-about-intro { margin: 27px 0 0; }
+  .kit-architecture .mo-about-image img { aspect-ratio: 1.18; }
+  .kit-architecture .mo-about-story, .kit-architecture .mo-services, .kit-architecture .mo-about-method { grid-template-columns: 1fr; gap: 30px; }
+  .kit-architecture .mo-service { display: flex; flex-wrap: wrap; gap: 8px 25px; }
+  .kit-architecture .mo-service p { margin: 0; }
+}
+@media (max-width: 390px) {
+  .kit-architecture { --mo-gutter: 19px; }
+  .kit-architecture .mo-brand > span { display: none; }
+  .kit-architecture .mo-header nav { gap: 17px; }
+  .kit-architecture .mo-hero h1 > span:first-child { font-size: 15.6vw; }
+  .kit-architecture .mo-about-heading h1 { font-size: 37px; }
+  .kit-architecture .mo-email { font-size: 27px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kit-architecture *, .kit-architecture *::before, .kit-architecture *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

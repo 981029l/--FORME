@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-11-06T19:08:23.698Z",
+  "checks": [
+    {
+      "name": "offscreen flip settles while paused",
+      "pass": true,
+      "detail": {
+        "a": "34",
+        "b": "34",
+        "baseline": {
+          "a": "53",
+          "b": "71"
+        }
+      }
+    },
+    {
+      "name": "mobile touch swipe changes film",
+      "pass": true,
+      "detail": "under-canopy"
+    },
+    {
+      "name": "mobile tap flips disc",
+      "pass": true
+    },
+    {
+      "name": "WebGL unavailable shows fallback",
+      "pass": true
+    },
+    {
+      "name": "fallback next works",
+      "pass": true
+    },
+    {
+      "name": "fallback flip works",
+      "pass": true
+    },
+    {
+      "name": "fallback opens correct detail",
+      "pass": true
+    },
+    {
+      "name": "context loss preserves navigation",
+      "pass": true
+    },
+    {
+      "name": "catalog has 22 templates",
+      "pass": true
+    },
+    {
+      "name": "Chinese search finds REEL",
+      "pass": true
+    },
+    {
+      "name": "catalog thumbnail loads",
+      "pass": true
+    },
+    {
+      "name": "single search card left aligned 1440",
+      "pass": true
+    },
+    {
+      "name": "single search card left aligned 1920",
+      "pass": true
+    },
+    {
+      "name": "single search card left aligned 2560",
+      "pass": true
+    },
+    {
+      "name": "English search finds REEL",
+      "pass": true
+    },
+    {
+      "name": "favorite toggles",
+      "pass": true
+    },
+    {
+      "name": "clear restores catalog",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

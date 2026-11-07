@@ -1,0 +1,32 @@
+import { notFound } from "next/navigation";
+import { kitComponents } from "@/kits/registry";
+import "@/kits/editorial/theme.css";
+import "@/kits/gallery/theme.css";
+import "@/kits/experimental/theme.css";
+import "@/kits/architecture/theme.css";
+import "@/kits/ceramic/theme.css";
+import "@/kits/fashion/theme.css";
+import "@/kits/travel/theme.css";
+import "@/kits/poster/theme.css";
+import "@/kits/product/theme.css";
+import "@/kits/software/theme.css";
+import "@/kits/developer/theme.css";
+import "@/kits/cafe/theme.css";
+import "@/kits/botanical/theme.css";
+import "@/kits/music/theme.css";
+import "@/kits/museum/theme.css";
+import "@/kits/hotel/theme.css";
+import "@/kits/dashboard/theme.css";
+import "@/kits/journal/theme.css";
+import "@/kits/wellness/theme.css";
+import "@/kits/playful/theme.css";
+import "@/kits/education/theme.css";
+import "@/kits/cinema/theme.css";
+import "@/kits/doodle/theme.css";
+import "@/kits/depth/theme.css";
+import type { TemplatePage } from "@/kits/types";
+export function KitRenderer({ slug, page }: { slug: string; page: TemplatePage }) {
+  const Kit = kitComponents[slug as keyof typeof kitComponents];
+  if (!Kit) notFound();
+  return <Kit page={page} basePath={`/preview/${slug}`} />;
+}

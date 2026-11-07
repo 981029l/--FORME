@@ -1,0 +1,222 @@
+{
+  "checkedAt": "2026-11-06T20:47:30.413064+00:00",
+  "unchangedKitFiles": 104,
+  "downloads": [
+    {
+      "slug": "architecture",
+      "bytes": 1747916,
+      "sha256": "6d6bfbe1afdf91cd63376c9475045076a914f06e5a34d1aeae042c19dafd8e00",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "botanical",
+      "bytes": 1472546,
+      "sha256": "6d7f7abcee6d3836e8b6b2dc1a690812a3e1b67a40211513118ebc68296db112",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "cafe",
+      "bytes": 1154891,
+      "sha256": "5f9dd9f68ccc85f2e78a09d7ead962f335be416be17fed86c39521f53633a3c8",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "ceramic",
+      "bytes": 477440,
+      "sha256": "a64b80431e28f911f98116066c596f3820d1fe2b99e42883a436a277c5a48a95",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "cinema",
+      "bytes": 6006174,
+      "sha256": "e734152752f9fd8e16bf0c9402a3123380851cfb622398a1395e896a5f5e07c7",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "dashboard",
+      "bytes": 49751,
+      "sha256": "8db8fe22efa13493ca06c10bd2fcfa783eb875198b26ea9098e10c5b264d4bab",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "depth",
+      "bytes": 6127522,
+      "sha256": "c929f013c43406e2947dd7a3171889449ad0225762648ee68768e04845d00ece",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "developer",
+      "bytes": 189174,
+      "sha256": "5212d9de31ebd7722c31a251d43ef20a0dc2575ed7a7aa4978427f397893c5d1",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "doodle",
+      "bytes": 60039,
+      "sha256": "3137c28477ec2b714b433225943179fb06a4462ae3cd24310cc0ef0f721a6540",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "editorial",
+      "bytes": 1746031,
+      "sha256": "579422e96855fdfadc62409729370483ee9ff9d717e90d4cad6d4462f9350abd",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "education",
+      "bytes": 306539,
+      "sha256": "5c850629af7f96260090c95f97f8db2eb9bc781d9d451eb3b9ab5c857989a67e",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "experimental",
+      "bytes": 2087061,
+      "sha256": "3ba37330e87999b131ce5f1faf17b147957194f043f5c6ad8a0b40421b19ae67",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "fashion",
+      "bytes": 558324,
+      "sha256": "37d73a9d90dd6f497af98ed5931d071c5386a867e92c08690cf866ba0a5ab81e",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "gallery",
+      "bytes": 1745684,
+      "sha256": "39d7bec9a254e011d54346bac6fb73aebe7ea4618d90b97099a77617b01c1d52",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "hotel",
+      "bytes": 1450664,
+      "sha256": "5a7821761e03a56667fc7475f9b922dfb731a01d3b44e5e61854ee0fb064a862",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "journal",
+      "bytes": 445786,
+      "sha256": "635e0e135631e7579698ada4bfb4c0c0f9085fae1f44adb373014579b32d5d99",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "museum",
+      "bytes": 1157984,
+      "sha256": "707e5fc3433a6da6e01e0d8a8d2a368c5540ded399a58552d13331486c6a579f",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "music",
+      "bytes": 505672,
+      "sha256": "ee29e26bfcf1e75d0c9cfab7771b7de85652e8d24f482dfc11ed7070d4b0f3c8",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "playful",
+      "bytes": 49309,
+      "sha256": "ae55a094311753ef5acfe65121dbe0954fc2f8022ada249d6b8d78c96952dd57",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "poster",
+      "bytes": 46753,
+      "sha256": "e8dfbfafc1c89f6c347c3bc7565aae7ed4a2097bb039da5e546378eba866397e",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "product",
+      "bytes": 534798,
+      "sha256": "1cb49443eb56c5f7d3b89169d437282535713c18ce61712ea7cddf51f16f985d",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "software",
+      "bytes": 187161,
+      "sha256": "67518b34d914ba80be956f2a0dff01101aff65de99007a10289b415fd7e5a8d9",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "travel",
+      "bytes": 557645,
+      "sha256": "dd65164c1c064a0c1ce09d3fdfdf1275265368d2bc1bf5fc7c0871adc75d0c93",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    },
+    {
+      "slug": "wellness",
+      "bytes": 814552,
+      "sha256": "fdc4fdd8cd747d16a64215d0e98a492994d96f8fe9a7a6e35e658bd8b632d0f5",
+      "http": 200,
+      "crc": "passed",
+      "sourceMatch": true,
+      "noPlatformGsap": true
+    }
+  ]
+}

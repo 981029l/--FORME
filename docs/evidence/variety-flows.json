@@ -1,0 +1,63 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T17:38:32.776Z",
+  "flows": [
+    {
+      "flow": "catalog",
+      "cards": 15,
+      "perCategory": {
+        "editorial": 3,
+        "gallery": 3,
+        "experimental": 3,
+        "product": 2,
+        "lifestyle": 2,
+        "culture": 2
+      },
+      "chineseEnglishSearch": true,
+      "favoriteReload": true
+    },
+    {
+      "flow": "software",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "cafe",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "music",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "botanical",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "developer",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "museum",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    }
+  ],
+  "errors": []
+}

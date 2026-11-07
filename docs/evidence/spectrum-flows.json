@@ -1,0 +1,63 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T18:32:41.146Z",
+  "flows": [
+    {
+      "flow": "catalog",
+      "cards": 21,
+      "perCategory": {
+        "editorial": 4,
+        "gallery": 3,
+        "experimental": 4,
+        "product": 4,
+        "lifestyle": 4,
+        "culture": 2
+      },
+      "chineseEnglishSearch": true,
+      "favoriteReload": true
+    },
+    {
+      "flow": "hotel",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "dashboard",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "journal",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "wellness",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "playful",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    },
+    {
+      "flow": "education",
+      "mobilePreview": true,
+      "projectAboutNavigation": true,
+      "downloadHashMatches": true,
+      "copiedDemoEmail": true
+    }
+  ],
+  "errors": []
+}

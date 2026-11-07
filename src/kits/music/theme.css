@@ -1,0 +1,213 @@
+.kit-music {
+  --ob-bg: #f747a1;
+  --ob-ink: #191317;
+  --ob-muted: #351522;
+  --ob-rule: #bc397d;
+  --ob-gutter: clamp(20px, 4.4vw, 76px);
+  --ob-space: clamp(72px, 8.5vw, 132px);
+  --ob-display: "Arial Black", "Arial", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --ob-body: "PingFang SC", "Microsoft YaHei", sans-serif;
+  --ob-mono: "Courier New", "PingFang SC", "Microsoft YaHei", monospace;
+  --ob-speed: 180ms;
+  min-height: 100vh;
+  background: var(--ob-bg);
+  color: var(--ob-ink);
+  font: 15px/1.8 var(--ob-body);
+}
+.kit-music *, .kit-music *::before, .kit-music *::after { box-sizing: border-box; }
+.kit-music :where(h1,h2,h3,p,figure) { margin: 0; }
+.kit-music a { color: inherit; text-decoration: none; }
+.kit-music button, .kit-music select { color: inherit; font: inherit; }
+.kit-music button, .kit-music summary, .kit-music select { cursor: pointer; }
+.kit-music :where(a,button,select,summary):focus-visible { outline: 3px solid var(--ob-ink); outline-offset: 5px; }
+.kit-music img { display: block; width: 100%; height: auto; object-fit: cover; }
+.kit-music h1, .kit-music h2, .kit-music h3 { font-family: var(--ob-display); font-weight: 900; letter-spacing: -.07em; }
+.kit-music h2 { font-size: clamp(34px, 4vw, 62px); line-height: 1.25; white-space: pre-line; }
+.kit-music figcaption { padding-top: 10px; font-size: 11px; color: var(--ob-muted); }
+.kit-music .ob-label { font: 11px/1.7 var(--ob-mono); letter-spacing: .025em; }
+.kit-music .ob-skip { position: absolute; top: 10px; left: var(--ob-gutter); background: var(--ob-ink); color: var(--ob-bg); padding: 10px 18px; z-index: 2; transform: translateY(-180%); }
+.kit-music .ob-skip:focus { transform: translateY(0); }
+.kit-music .ob-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 78px; margin-inline: var(--ob-gutter); border-bottom: 2px solid var(--ob-ink); }
+.kit-music .ob-brand { display: flex; align-items: baseline; gap: 18px; font-family: var(--ob-display); font-size: 28px; font-weight: 900; letter-spacing: -.08em; }
+.kit-music .ob-brand span { font-size: 17px; letter-spacing: -.07em; }
+.kit-music .ob-header nav { display: flex; gap: clamp(22px, 3vw, 42px); font-size: 13px; font-weight: 700; }
+.kit-music .ob-header nav a { padding-block: 14px; }
+.kit-music .ob-header nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 8px; }
+.kit-music .ob-hero { display: grid; grid-template-columns: 1.12fr 1fr; gap: 6%; margin: 34px var(--ob-gutter) 36px; }
+.kit-music .ob-hero-copy { display: flex; align-items: flex-start; flex-direction: column; }
+.kit-music .ob-hero h1 { margin: 20px 0 24px; font-size: clamp(68px, 8.6vw, 140px); line-height: 1.01; letter-spacing: -.09em; }
+.kit-music .ob-hero h1 span { display: block; }
+.kit-music .ob-hero h1 span:last-child { margin-left: .4em; }
+.kit-music .ob-hero-intro { max-width: 24em; font-size: 14px; margin-bottom: 23px; }
+.kit-music .ob-hero-image { padding-top: 13px; }
+.kit-music .ob-hero-image img { aspect-ratio: 1.04; object-position: 50% 50%; filter: grayscale(100%); }
+.kit-music .ob-button { display: inline-flex; align-items: center; justify-content: space-between; gap: 52px; min-height: 48px; padding: 11px 18px; background: var(--ob-ink); color: var(--ob-bg); border: 2px solid var(--ob-ink); font-size: 13px; font-weight: 700; transition: transform var(--ob-speed); }
+.kit-music .ob-button:hover { transform: translateY(-3px); }
+.kit-music .ob-button:active { transform: translateY(1px); }
+.kit-music .ob-button span, .kit-music .ob-link span { font-size: 23px; line-height: 1; }
+.kit-music .ob-link { display: inline-flex; justify-content: space-between; align-items: center; gap: 36px; border: 0; border-bottom: 2px solid var(--ob-ink); padding: 8px 0; background: transparent; font-size: 13px; font-weight: 700; }
+.kit-music .ob-event { display: grid; grid-template-columns: 1.12fr 1fr; align-items: center; gap: 6%; margin-inline: var(--ob-gutter); padding: 22px 0 27px; border-top: 2px solid var(--ob-ink); border-bottom: 2px solid var(--ob-ink); }
+.kit-music .ob-event-date { font-family: var(--ob-display); font-weight: 900; font-size: clamp(40px, 6.2vw, 98px); line-height: 1; letter-spacing: -.065em; white-space: nowrap; }
+.kit-music .ob-event h2 { font-size: clamp(21px, 2.2vw, 34px); letter-spacing: -.05em; }
+.kit-music .ob-event div p { margin-top: 9px; font-size: 12px; }
+.kit-music .ob-lineup { margin: var(--ob-space) var(--ob-gutter); }
+.kit-music .ob-lineup > h2 { margin-bottom: 37px; }
+.kit-music .ob-artist { display: grid; grid-template-columns: 1.55fr 1fr; gap: 8%; align-items: end; padding: 27px 0; border-bottom: 1px solid var(--ob-ink); }
+.kit-music .ob-artist h3 { font-size: clamp(42px, 6.1vw, 96px); line-height: 1.15; margin-top: 6px; }
+.kit-music .ob-artist-copy { padding-bottom: 7px; }
+.kit-music .ob-artist-copy > span { font-family: var(--ob-display); font-weight: 900; font-size: clamp(17px, 2.1vw, 30px); letter-spacing: -.06em; }
+.kit-music .ob-artist-copy p { font-size: 12px; margin-top: 8px; }
+.kit-music .ob-manifesto { display: grid; grid-template-columns: 1.55fr 1fr; gap: 8%; padding: 0 var(--ob-gutter) var(--ob-space); align-items: start; }
+.kit-music .ob-manifesto h2 { font-size: clamp(41px, 5.7vw, 88px); }
+.kit-music .ob-manifesto > div { padding-top: 10px; max-width: 29em; }
+.kit-music .ob-manifesto .ob-link { margin-top: 26px; }
+.kit-music .ob-contact { display: grid; grid-template-columns: 1.55fr 1fr; column-gap: 8%; padding: 49px var(--ob-gutter) 26px; border-top: 2px solid var(--ob-ink); }
+.kit-music .ob-contact h2 { font-size: clamp(39px, 5vw, 78px); }
+.kit-music .ob-contact-head > p { margin-top: 16px; font-size: 13px; }
+.kit-music .ob-contact-details { padding-top: 7px; }
+.kit-music .ob-contact-details > span { display: block; }
+.kit-music .ob-email { font-family: var(--ob-display); font-weight: 700; letter-spacing: -.065em; font-size: clamp(22px, 2.65vw, 40px); line-height: 1.4; margin: 8px 0 18px; overflow-wrap: anywhere; user-select: all; }
+.kit-music .ob-status { min-height: 25px; font-size: 11px; margin-top: 8px; }
+.kit-music .ob-footer-line { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 2fr auto; gap: 25px; align-items: baseline; padding-top: 22px; margin-top: 50px; border-top: 1px solid var(--ob-ink); font-size: 10px; }
+.kit-music .ob-footer-line > span { font-family: var(--ob-display); font-size: 18px; font-weight: 900; letter-spacing: -.05em; }
+.kit-music .ob-footer-line p { max-width: 44em; }
+.kit-music .ob-project-head { margin: 49px var(--ob-gutter) 54px; }
+.kit-music .ob-project-head h1 { font-size: clamp(49px, 7.9vw, 122px); line-height: 1.2; margin: 18px 0 24px; }
+.kit-music .ob-project-head > p:last-child { max-width: 34em; font-size: 14px; }
+.kit-music .ob-programme { margin-inline: var(--ob-gutter); }
+.kit-music .ob-programme-controls { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; }
+.kit-music .ob-days { display: flex; gap: 8px; }
+.kit-music .ob-days button { background: transparent; border: 2px solid var(--ob-ink); padding: 10px 24px; font-family: var(--ob-display); font-weight: 900; letter-spacing: -.05em; font-size: clamp(25px, 3vw, 42px); line-height: 1.2; }
+.kit-music .ob-days button[aria-pressed="true"] { background: var(--ob-ink); color: var(--ob-bg); }
+.kit-music .ob-days button:active { transform: translateY(1px); }
+.kit-music .ob-filter { display: grid; gap: 5px; font-size: 11px; min-width: 180px; }
+.kit-music .ob-filter select { background: var(--ob-bg); border: 1px solid var(--ob-ink); border-radius: 0; padding: 8px 28px 8px 12px; min-height: 43px; font-size: 13px; }
+.kit-music .ob-programme-caption { display: flex; justify-content: space-between; gap: 20px; align-items: baseline; margin: 38px 0 18px; }
+.kit-music .ob-programme-caption h2 { font-size: 18px; letter-spacing: -.025em; }
+.kit-music .ob-programme-caption p { font-family: var(--ob-mono); font-size: 11px; }
+.kit-music .ob-sessions { border-top: 2px solid var(--ob-ink); }
+.kit-music .ob-session { display: grid; grid-template-columns: minmax(130px, .5fr) 2fr; gap: 6%; padding: 28px 0 26px; border-bottom: 1px solid var(--ob-ink); }
+.kit-music .ob-time time { display: block; font-family: var(--ob-display); font-size: clamp(28px, 4vw, 58px); font-weight: 900; line-height: 1.1; letter-spacing: -.07em; }
+.kit-music .ob-time > span { font: 12px/1.8 var(--ob-mono); }
+.kit-music .ob-session h3 { font-size: clamp(31px, 4vw, 60px); line-height: 1.2; margin: 8px 0; }
+.kit-music .ob-session-english { font-family: var(--ob-display); font-size: 15px; letter-spacing: -.04em; }
+.kit-music .ob-session details { max-width: 700px; margin-top: 15px; }
+.kit-music .ob-session summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; list-style: none; font-size: 12px; min-height: 37px; }
+.kit-music .ob-session summary::-webkit-details-marker { display: none; }
+.kit-music .ob-session summary span { font-family: var(--ob-mono); font-size: 25px; transition: transform var(--ob-speed); }
+.kit-music .ob-session details[open] summary span { transform: rotate(45deg); }
+.kit-music .ob-session details > p { padding-top: 12px; max-width: 39em; font-size: 13px; }
+.kit-music .ob-empty { padding: 50px 0; min-height: 230px; }
+.kit-music .ob-empty .ob-link { margin-top: 20px; }
+.kit-music .ob-programme-note { margin-top: 15px; font-size: 11px; }
+.kit-music .ob-project-image { margin: var(--ob-space) var(--ob-gutter) 0; }
+.kit-music .ob-project-image img { aspect-ratio: 2.4; filter: grayscale(100%); }
+.kit-music .ob-listening { margin: var(--ob-space) var(--ob-gutter); }
+.kit-music .ob-listening > div { display: grid; grid-template-columns: 1fr 1fr; gap: 10%; margin-top: 34px; }
+.kit-music .ob-listening h3 { font-size: 23px; line-height: 1.4; margin-bottom: 12px; }
+.kit-music .ob-listening article p { max-width: 28em; font-size: 14px; }
+.kit-music .ob-about-head { margin: 49px var(--ob-gutter) 42px; }
+.kit-music .ob-about-head h1 { margin: 18px 0 28px; font-size: clamp(47px, 6.5vw, 100px); line-height: 1.15; }
+.kit-music .ob-about-head h1 span { display: block; }
+.kit-music .ob-about-intro { max-width: 36em; font-size: 14px; }
+.kit-music .ob-about-image { margin-inline: var(--ob-gutter); }
+.kit-music .ob-about-image img { aspect-ratio: 2.6; filter: grayscale(100%); }
+.kit-music .ob-story { margin: var(--ob-space) var(--ob-gutter); max-width: 1000px; }
+.kit-music .ob-story h2 { font-size: clamp(39px, 5.5vw, 84px); }
+.kit-music .ob-story > p { margin-top: 29px; max-width: 40em; }
+.kit-music .ob-practices { margin: 0 var(--ob-gutter) var(--ob-space); border-top: 2px solid var(--ob-ink); padding-top: 31px; }
+.kit-music .ob-practices > h2 { font-size: 23px; }
+.kit-music .ob-practices > div { margin-top: 23px; }
+.kit-music .ob-practices article { display: grid; grid-template-columns: 1fr 1.6fr 1fr; align-items: start; gap: 5%; padding: 26px 0; border-bottom: 1px solid var(--ob-rule); }
+.kit-music .ob-practices h3 { font-size: 33px; line-height: 1.35; }
+.kit-music .ob-practices article p { font-size: 14px; }
+.kit-music .ob-practices article > span { padding-top: 9px; text-align: right; }
+.kit-music .ob-ending { margin: 0 var(--ob-gutter) var(--ob-space); }
+.kit-music .ob-ending > p { margin: 22px 0; max-width: 32em; font-size: 14px; }
+@media (min-width: 1700px) {
+  .kit-music { --ob-gutter: max(76px, calc((100vw - 1520px) / 2)); }
+}
+@media (max-width: 1023px) {
+  .kit-music .ob-hero { gap: 4%; }
+  .kit-music .ob-hero h1 { font-size: clamp(65px, 8.2vw, 94px); }
+  .kit-music .ob-hero-image img { aspect-ratio: .85; }
+  .kit-music .ob-hero-copy .ob-label { max-width: 24em; }
+  .kit-music .ob-practices article { grid-template-columns: 1fr 1.6fr; }
+  .kit-music .ob-practices article > span { grid-column: 2; text-align: left; padding-top: 0; }
+}
+@media (max-width: 767px) {
+  .kit-music { --ob-gutter: 22px; }
+  .kit-music .ob-header { flex-wrap: wrap; gap: 0 18px; padding-top: 13px; min-height: 100px; }
+  .kit-music .ob-brand { font-size: 25px; gap: 14px; }
+  .kit-music .ob-brand span { font-size: 16px; }
+  .kit-music .ob-header nav { flex-basis: 100%; justify-content: space-between; gap: 18px; font-size: 12px; }
+  .kit-music .ob-header nav a { padding-block: 12px; }
+  .kit-music .ob-header nav a[aria-current="page"] { text-underline-offset: 5px; }
+  .kit-music .ob-hero { grid-template-columns: 1fr; gap: 32px; margin-top: 25px; }
+  .kit-music .ob-hero-copy .ob-label { max-width: none; font-size: 9px; }
+  .kit-music .ob-hero h1 { font-size: clamp(70px, 17.5vw, 130px); margin: 16px 0 22px; }
+  .kit-music .ob-hero h1 span:last-child { margin-left: .35em; }
+  .kit-music .ob-hero-intro { font-size: 13px; max-width: 23em; }
+  .kit-music .ob-hero-image { padding-top: 0; }
+  .kit-music .ob-hero-image img { aspect-ratio: 1.27; }
+  .kit-music .ob-event { grid-template-columns: 1fr; gap: 18px; padding: 23px 0; }
+  .kit-music .ob-event-date { font-size: clamp(44px, 11.5vw, 77px); }
+  .kit-music .ob-event h2 { font-size: 25px; }
+  .kit-music .ob-lineup > h2 { font-size: 30px; max-width: 9em; margin-bottom: 18px; }
+  .kit-music .ob-artist { grid-template-columns: 1fr; gap: 14px; padding: 22px 0; }
+  .kit-music .ob-artist h3 { font-size: clamp(42px, 11vw, 74px); }
+  .kit-music .ob-artist-copy > span { font-size: 19px; }
+  .kit-music .ob-artist-copy p { font-size: 12px; }
+  .kit-music .ob-manifesto { grid-template-columns: 1fr; gap: 24px; }
+  .kit-music .ob-manifesto h2 { font-size: clamp(38px, 10vw, 68px); }
+  .kit-music .ob-manifesto > div { max-width: 35em; padding-top: 0; font-size: 14px; }
+  .kit-music .ob-contact { grid-template-columns: 1fr; gap: 28px; padding-top: 35px; }
+  .kit-music .ob-contact h2 { font-size: 44px; }
+  .kit-music .ob-email { font-size: clamp(23px, 6.2vw, 37px); }
+  .kit-music .ob-footer-line { grid-template-columns: 1fr; gap: 14px; margin-top: 0; }
+  .kit-music .ob-footer-line p { max-width: 34em; }
+  .kit-music .ob-project-head { margin-top: 32px; margin-bottom: 32px; }
+  .kit-music .ob-project-head h1 { font-size: clamp(42px, 9.8vw, 70px); margin-block: 15px 20px; }
+  .kit-music .ob-project-head > p:last-child { font-size: 13px; }
+  .kit-music .ob-programme-controls { flex-direction: column; align-items: stretch; gap: 19px; }
+  .kit-music .ob-days { display: grid; grid-template-columns: 1fr 1fr; }
+  .kit-music .ob-days button { font-size: 32px; padding: 12px; }
+  .kit-music .ob-filter { max-width: none; }
+  .kit-music .ob-programme-caption { align-items: flex-start; gap: 13px; margin-top: 29px; }
+  .kit-music .ob-programme-caption h2 { max-width: 12em; font-size: 14px; line-height: 1.6; }
+  .kit-music .ob-programme-caption p { white-space: nowrap; padding-top: 2px; font-size: 10px; }
+  .kit-music .ob-session { grid-template-columns: 70px minmax(0, 1fr); gap: 15px; padding-block: 23px; }
+  .kit-music .ob-time time { font-size: 27px; }
+  .kit-music .ob-session h3 { font-size: clamp(25px, 6.7vw, 41px); }
+  .kit-music .ob-session .ob-label { font-size: 9px; }
+  .kit-music .ob-session-english { font-size: 11px; overflow-wrap: anywhere; }
+  .kit-music .ob-session summary { font-size: 11px; }
+  .kit-music .ob-session details > p { font-size: 12px; }
+  .kit-music .ob-project-image img { aspect-ratio: 1.2; }
+  .kit-music .ob-listening h2 { font-size: 33px; }
+  .kit-music .ob-listening > div { grid-template-columns: 1fr; gap: 29px; }
+  .kit-music .ob-listening h3 { font-size: 21px; }
+  .kit-music .ob-about-head { margin-top: 31px; }
+  .kit-music .ob-about-head h1 { font-size: clamp(36px, 8.8vw, 63px); }
+  .kit-music .ob-about-intro { font-size: 13px; }
+  .kit-music .ob-about-image img { aspect-ratio: 1.3; }
+  .kit-music .ob-story h2 { font-size: clamp(33px, 8.6vw, 64px); }
+  .kit-music .ob-story > p { font-size: 14px; }
+  .kit-music .ob-practices article { grid-template-columns: 1fr; gap: 13px; }
+  .kit-music .ob-practices article > span { grid-column: auto; }
+  .kit-music .ob-practices h3 { font-size: 31px; }
+  .kit-music .ob-ending h2 { font-size: clamp(34px, 8.6vw, 64px); }
+}
+@media (max-width: 359px) {
+  .kit-music { --ob-gutter: 17px; }
+  .kit-music .ob-hero h1 { font-size: 65px; }
+  .kit-music .ob-project-head h1 { font-size: 37px; }
+  .kit-music .ob-about-head h1 { font-size: 33px; }
+  .kit-music .ob-session { grid-template-columns: 59px minmax(0, 1fr); gap: 12px; }
+  .kit-music .ob-time time { font-size: 24px; }
+  .kit-music .ob-session h3 { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kit-music *, .kit-music *::before, .kit-music *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+  .kit-music .ob-button:hover, .kit-music .ob-button:active, .kit-music .ob-days button:active { transform: none; }
+}

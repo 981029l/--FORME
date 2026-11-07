@@ -1,0 +1,45 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T16:51:30.317Z",
+  "chineseEnglishSearch": true,
+  "clearRestoresFocus": true,
+  "escapeClears": true,
+  "composingEscapePreserved": true,
+  "stableWidth": true,
+  "keyboardFocus": true,
+  "favoriteFilter": true,
+  "viewports": [
+    {
+      "viewport": 320,
+      "pageWidth": 320,
+      "inputWidth": 84,
+      "controlHeight": 46
+    },
+    {
+      "viewport": 390,
+      "pageWidth": 390,
+      "inputWidth": 154,
+      "controlHeight": 46
+    },
+    {
+      "viewport": 768,
+      "pageWidth": 768,
+      "inputWidth": 110,
+      "controlHeight": 46
+    },
+    {
+      "viewport": 1024,
+      "pageWidth": 1024,
+      "inputWidth": 115.03125,
+      "controlHeight": 46
+    },
+    {
+      "viewport": 1440,
+      "pageWidth": 1440,
+      "inputWidth": 200,
+      "controlHeight": 46
+    }
+  ],
+  "violations": [],
+  "errors": []
+}

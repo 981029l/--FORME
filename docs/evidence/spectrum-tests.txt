@@ -1,0 +1,40 @@
+
+> forme-template-library@0.1.0 test
+> node --import tsx --test tests/catalog.test.mjs tests/package.test.mjs tests/kits.test.mjs
+
+✔ search matches trimmed Chinese tags and case-insensitive English names (1.4127ms)
+✔ category and favorite filters intersect rather than override each other (0.1958ms)
+✔ an unmatched query returns an empty list without changing source records (0.2095ms)
+✔ catalog, renderable kits and source directories stay in sync (4.1386ms)
+✔ editorial: complete independent export and navigation on every page (33.828ms)
+✔ gallery: complete independent export and navigation on every page (17.9961ms)
+✔ experimental: complete independent export and navigation on every page (22.1097ms)
+✔ architecture: complete independent export and navigation on every page (21.654ms)
+✔ ceramic: complete independent export and navigation on every page (20.8541ms)
+✔ fashion: complete independent export and navigation on every page (19.955ms)
+✔ travel: complete independent export and navigation on every page (22.7971ms)
+✔ poster: complete independent export and navigation on every page (22.1715ms)
+✔ product: complete independent export and navigation on every page (23.6771ms)
+✔ software: complete independent export and navigation on every page (24.2527ms)
+✔ cafe: complete independent export and navigation on every page (23.2492ms)
+✔ music: complete independent export and navigation on every page (24.7617ms)
+✔ botanical: complete independent export and navigation on every page (25.7401ms)
+✔ developer: complete independent export and navigation on every page (29.4647ms)
+✔ museum: complete independent export and navigation on every page (25.252ms)
+✔ hotel: complete independent export and navigation on every page (37.4012ms)
+✔ dashboard: complete independent export and navigation on every page (37.0699ms)
+✔ journal: complete independent export and navigation on every page (20.4745ms)
+✔ wellness: complete independent export and navigation on every page (11.7182ms)
+✔ playful: complete independent export and navigation on every page (22.5348ms)
+✔ education: complete independent export and navigation on every page (14.4941ms)
+✔ a download contains the three working routes, editable source and local assets (17.5161ms)
+✔ download uses the exact preview template and carries no platform alias dependency (8.5217ms)
+✔ unknown kit names cannot escape the template directory (0.9637ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1046.6681

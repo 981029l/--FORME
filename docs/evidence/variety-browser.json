@@ -1,0 +1,1376 @@
+{
+  "base": "http://127.0.0.1:3000",
+  "checkedAt": "2026-11-06T17:39:31.164Z",
+  "results": [
+    {
+      "route": "/preview/software",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/software",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/cafe",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/cafe",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/music",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/music",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/botanical",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/botanical",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/developer",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/developer",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/museum",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/project",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/about",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/museum",
+      "width": 1440,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/software",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/software",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/cafe",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/cafe",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/music",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/music",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/botanical",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/botanical",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/developer",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/developer",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/museum",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/project",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/about",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/museum",
+      "width": 390,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/software",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/project",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/software",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/cafe",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/project",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/cafe",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/music",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/project",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/music",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/botanical",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/project",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/botanical",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/developer",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/project",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/developer",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/museum",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/project",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/about",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/museum",
+      "width": 768,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/software",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/project",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/software/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/software",
+        "/preview/software/project",
+        "/preview/software/about",
+        "#rl-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/software",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/cafe",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/project",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/cafe/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/cafe",
+        "/preview/cafe/project",
+        "/preview/cafe/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/cafe",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/music",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/project",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/music/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/music",
+        "/preview/music/project",
+        "/preview/music/about",
+        "#ob-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/music",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/botanical",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/project",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/botanical/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/botanical",
+        "/preview/botanical/project",
+        "/preview/botanical/about"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/botanical",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/developer",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/project",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/developer/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/developer",
+        "/preview/developer/project",
+        "/preview/developer/about",
+        "#st-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/developer",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    },
+    {
+      "route": "/preview/museum",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/project",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/preview/museum/about",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "main": 1,
+      "overflow": false,
+      "overflowElements": [],
+      "navigation": [
+        "/preview/museum",
+        "/preview/museum/project",
+        "/preview/museum/about",
+        "#mu-contact"
+      ],
+      "brokenImages": [],
+      "violations": []
+    },
+    {
+      "route": "/templates/museum",
+      "width": 320,
+      "status": 200,
+      "h1": 1,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "failures": []
+}

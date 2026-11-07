@@ -1,0 +1,253 @@
+.kit-botanical {
+  --vd-bg: #eff7ee;
+  --vd-ink: #194c36;
+  --vd-muted: #4d6859;
+  --vd-surface: #dcebdc;
+  --vd-surface-deep: #cfe3d1;
+  --vd-paper: #f9fcf5;
+  --vd-line: #b5cbb7;
+  --vd-gutter: clamp(24px,6vw,88px);
+  --vd-space: clamp(72px,8vw,120px);
+  --vd-body: var(--font-display), "PingFang SC", "Microsoft YaHei", sans-serif;
+  --vd-radius: 20px;
+  --vd-pill: 999px;
+  --vd-speed: 200ms;
+  min-height: 100dvh;
+  color: var(--vd-ink);
+  background: var(--vd-bg);
+  font-family: var(--vd-body);
+  font-size: 14px;
+  line-height: 1.85;
+}
+.kit-botanical *, .kit-botanical *::before, .kit-botanical *::after { box-sizing: border-box; }
+.kit-botanical :where(h1,h2,h3,h4,p,figure,dl,dd,ul) { margin: 0; }
+.kit-botanical a { color: inherit; text-decoration: none; }
+.kit-botanical button { font: inherit; color: inherit; }
+.kit-botanical :where(a,button,summary):focus-visible { outline: 2px solid var(--vd-ink); outline-offset: 5px; }
+.kit-botanical img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.kit-botanical figure { min-width: 0; }
+.kit-botanical h1, .kit-botanical h2, .kit-botanical h3 { font-weight: 500; }
+.kit-botanical h1 { font-size: clamp(44px,5vw,72px); line-height: 1.3; letter-spacing: -.065em; }
+.kit-botanical h1 > span { display: block; }
+.kit-botanical h2 { font-size: clamp(28px,3vw,43px); line-height: 1.5; letter-spacing: -.055em; white-space: pre-line; }
+.kit-botanical h3 { font-size: 22px; line-height: 1.55; letter-spacing: -.03em; }
+.kit-botanical figcaption { font-size: 10px; color: var(--vd-muted); padding-top: 14px; }
+.kit-botanical .vd-label { font-size: 10px; font-weight: 500; letter-spacing: .13em; }
+.kit-botanical .vd-skip { position: fixed; z-index: 5; top: 12px; left: 16px; transform: translateY(-180%); padding: 9px 18px; border-radius: var(--vd-pill); background: var(--vd-paper); }
+.kit-botanical .vd-skip:focus { transform: none; }
+.kit-botanical .vd-header { min-height: 80px; padding-inline: var(--vd-gutter); display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+.kit-botanical .vd-brand { display: flex; align-items: center; gap: 11px; }
+.kit-botanical .vd-brand strong { font-weight: 600; font-size: 24px; letter-spacing: -.03em; }
+.kit-botanical .vd-wordmark { font-size: 12px; font-weight: 650; letter-spacing: -.01em; }
+.kit-botanical .vd-brand-mark { display: block; width: 19px; height: 27px; border-radius: 19px 1px 19px 1px; background: var(--vd-ink); transform: rotate(16deg); margin-right: 2px; }
+.kit-botanical .vd-header nav { display: flex; align-items: center; gap: 36px; font-size: 12px; }
+.kit-botanical .vd-header nav a { padding-block: 10px; }
+.kit-botanical .vd-header nav a[aria-current="page"] { text-decoration: underline; text-underline-offset: 7px; text-decoration-thickness: 2px; }
+.kit-botanical .vd-nav-contact { display: flex; gap: 23px; align-items: center; border: 1px solid var(--vd-line); border-radius: var(--vd-pill); padding: 9px 17px; font-size: 11px; }
+.kit-botanical .vd-nav-contact > span { font-size: 18px; }
+.kit-botanical .vd-button, .kit-botanical .vd-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 30px; width: fit-content; max-width: 100%; cursor: pointer; font-size: 12px; white-space: nowrap; transition: transform var(--vd-speed); }
+.kit-botanical .vd-button { min-height: 50px; border: 1px solid var(--vd-ink); padding: 12px 23px; border-radius: var(--vd-pill); background: var(--vd-ink); color: var(--vd-paper); }
+.kit-botanical .vd-link { min-height: 44px; padding: 9px 0; border: 0; border-bottom: 1px solid var(--vd-ink); background: transparent; }
+.kit-botanical :where(.vd-button,.vd-link) > span { font-size: 20px; line-height: 1; }
+.kit-botanical :where(.vd-button,.vd-link):hover { transform: translateY(-2px); }
+.kit-botanical :where(.vd-button,.vd-link):active { transform: translateY(1px); }
+.kit-botanical .vd-hero { display: grid; grid-template-columns: 1fr 1.1fr; align-items: center; gap: 8%; max-width: 1490px; padding: 33px var(--vd-gutter) 24px; margin-inline: auto; }
+.kit-botanical .vd-hero-copy { padding-bottom: 32px; }
+.kit-botanical .vd-hero h1 { margin: 26px 0 24px; }
+.kit-botanical .vd-intro { color: var(--vd-muted); max-width: 25em; margin-bottom: 29px; font-size: 13px; }
+.kit-botanical .vd-hero-photo > div { height: clamp(380px,39vw,535px); border-radius: 48% 48% var(--vd-radius) var(--vd-radius); overflow: hidden; }
+.kit-botanical .vd-hero-photo img { object-position: 50% 46%; }
+.kit-botanical .vd-hero-photo figcaption { display: flex; justify-content: space-between; gap: 20px; font-size: 10px; }
+.kit-botanical .vd-hero-photo figcaption > span:last-child { font-size: 8px; letter-spacing: .12em; white-space: nowrap; }
+.kit-botanical .vd-statement { max-width: 840px; padding: 0 var(--vd-gutter); margin: var(--vd-space) auto; text-align: center; }
+.kit-botanical .vd-statement > p { color: var(--vd-muted); max-width: 37em; margin: 25px auto 0; font-size: 13px; }
+.kit-botanical .vd-light { width: calc(100% - var(--vd-gutter) * 2); max-width: 1170px; margin: 0 auto var(--vd-space); padding: 41px 48px 30px; background: var(--vd-surface); border-radius: var(--vd-radius); scroll-margin-top: 30px; }
+.kit-botanical .vd-light-heading h2 { font-size: clamp(28px,2.6vw,37px); }
+.kit-botanical .vd-light-heading > p { color: var(--vd-muted); font-size: 12px; margin-top: 11px; }
+.kit-botanical .vd-light-options { display: flex; flex-wrap: wrap; gap: 9px; margin: 25px 0 32px; }
+.kit-botanical .vd-light-options button { border: 1px solid var(--vd-line); border-radius: var(--vd-pill); min-height: 44px; padding: 10px 22px; font-size: 12px; background: transparent; cursor: pointer; }
+.kit-botanical .vd-light-options button[aria-pressed="true"] { background: var(--vd-ink); color: var(--vd-paper); border-color: var(--vd-ink); }
+.kit-botanical .vd-light-options button:hover:not([aria-pressed="true"]) { background: var(--vd-surface-deep); }
+.kit-botanical .vd-light-result { display: grid; grid-template-columns: 1.1fr 1fr; gap: 10%; padding: 29px 0 30px; border-top: 1px solid var(--vd-line); }
+.kit-botanical .vd-result-label { font-size: 10px; color: var(--vd-muted); margin-bottom: 12px; }
+.kit-botanical .vd-light-result h3 { font-size: 25px; }
+.kit-botanical .vd-light-result > div > p:not(.vd-result-label) { color: var(--vd-muted); font-size: 12px; margin: 17px 0; }
+.kit-botanical .vd-plant-note { display: inline-block; border-bottom: 1px solid var(--vd-line); padding-bottom: 5px; font-size: 11px; }
+.kit-botanical .vd-light-tips h4 { font-size: 13px; font-weight: 500; padding-top: 5px; }
+.kit-botanical .vd-light-tips ul { list-style: none; padding: 0; margin-top: 18px; }
+.kit-botanical .vd-light-tips li { display: grid; grid-template-columns: 15px 1fr; gap: 13px; font-size: 12px; padding: 12px 0; border-top: 1px solid var(--vd-line); }
+.kit-botanical .vd-light-tips li > span { font-size: 16px; line-height: 1.45; }
+.kit-botanical .vd-small-note { color: var(--vd-muted); font-size: 10px; line-height: 1.9; }
+.kit-botanical .vd-light > .vd-small-note { padding-top: 20px; border-top: 1px solid var(--vd-line); }
+.kit-botanical .vd-story { display: grid; grid-template-columns: 1.05fr 1fr; align-items: center; gap: 11%; max-width: 1360px; padding-inline: var(--vd-gutter); margin: 0 auto var(--vd-space); }
+.kit-botanical .vd-story img { border-radius: var(--vd-radius); aspect-ratio: 1.04; object-position: 53% 50%; }
+.kit-botanical .vd-story > div > p { color: var(--vd-muted); margin: 23px 0; max-width: 29em; font-size: 13px; }
+.kit-botanical .vd-about-invite { display: flex; align-items: center; justify-content: center; gap: 56px; max-width: 1000px; padding: 0 var(--vd-gutter); margin: 0 auto var(--vd-space); }
+.kit-botanical .vd-leaf-window { width: 160px; height: 225px; flex: 0 0 160px; border-radius: var(--vd-pill); overflow: hidden; }
+.kit-botanical .vd-about-invite h2 { font-size: 32px; }
+.kit-botanical .vd-about-invite p { color: var(--vd-muted); font-size: 12px; max-width: 30em; margin: 20px 0; }
+.kit-botanical .vd-footer { padding: 48px var(--vd-gutter) 24px; border-radius: 70px 70px 0 0; background: var(--vd-surface); }
+.kit-botanical .vd-footer-content { display: flex; align-items: center; justify-content: space-between; gap: 40px; max-width: 1190px; margin-inline: auto; }
+.kit-botanical .vd-footer h2 { font-size: clamp(33px,3.7vw,52px); line-height: 1.4; }
+.kit-botanical .vd-footer-content > div > p { color: var(--vd-muted); font-size: 12px; margin-top: 17px; }
+.kit-botanical .vd-contact-address { max-width: 100%; }
+.kit-botanical .vd-contact-address > .vd-label { display: block; color: var(--vd-muted); }
+.kit-botanical .vd-email { display: block; font-size: clamp(21px,2.3vw,32px); letter-spacing: -.05em; margin: 9px 0 15px; overflow-wrap: anywhere; user-select: all; }
+.kit-botanical .vd-contact-address .vd-status { min-height: 27px; margin: 11px 0 0; font-size: 11px; color: var(--vd-muted); }
+.kit-botanical .vd-footer-bottom { margin: 36px auto 0; padding-top: 22px; border-top: 1px solid var(--vd-line); display: flex; align-items: center; justify-content: space-between; gap: 20px; max-width: 1190px; font-size: 10px; color: var(--vd-muted); }
+.kit-botanical .vd-footer-bottom > strong { display: flex; gap: 10px; align-items: baseline; font-size: 19px; font-weight: 500; color: var(--vd-ink); }
+.kit-botanical .vd-footer-bottom > strong > span { font-size: 10px; letter-spacing: .02em; font-weight: 600; }
+.kit-botanical .vd-footer-bottom > span:last-child { font-size: 8px; letter-spacing: .1em; }
+.kit-botanical .vd-page-heading { max-width: 1140px; padding: 40px var(--vd-gutter) 42px; margin-inline: auto; }
+.kit-botanical .vd-page-heading h1 { margin: 22px 0; font-size: clamp(44px,5vw,69px); }
+.kit-botanical .vd-page-heading > p:last-of-type { color: var(--vd-muted); max-width: 38em; font-size: 13px; }
+.kit-botanical .vd-facts { display: flex; flex-wrap: wrap; gap: 45px; border-top: 1px solid var(--vd-line); margin-top: 30px; padding-top: 20px; }
+.kit-botanical .vd-facts dt { color: var(--vd-muted); font-size: 10px; }
+.kit-botanical .vd-facts dd { font-size: 12px; margin-top: 4px; }
+.kit-botanical .vd-project-cover { width: calc(100% - var(--vd-gutter) * 2); max-width: 1170px; margin-inline: auto; }
+.kit-botanical .vd-project-cover img { aspect-ratio: 2.6; border-radius: var(--vd-radius); object-position: center 43%; }
+.kit-botanical .vd-project-cover figcaption { text-align: right; }
+.kit-botanical .vd-project-brief { max-width: 810px; padding-inline: var(--vd-gutter); margin: var(--vd-space) auto; text-align: center; }
+.kit-botanical .vd-project-brief p { color: var(--vd-muted); font-size: 13px; margin-top: 23px; }
+.kit-botanical .vd-layers { max-width: 1360px; padding: 0 var(--vd-gutter); margin: 0 auto var(--vd-space); }
+.kit-botanical .vd-layers > div { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 48px; border-top: 1px solid var(--vd-line); margin-top: 34px; padding-top: 29px; }
+.kit-botanical .vd-layers article > span { font-size: 12px; color: var(--vd-muted); }
+.kit-botanical .vd-layers h3 { margin: 14px 0; font-size: 24px; }
+.kit-botanical .vd-layers p { color: var(--vd-muted); font-size: 13px; }
+.kit-botanical .vd-care { display: grid; grid-template-columns: .95fr 1.05fr; gap: 9%; align-items: start; max-width: 1360px; margin: 0 auto var(--vd-space); padding-inline: var(--vd-gutter); }
+.kit-botanical .vd-care img { aspect-ratio: .98; border-radius: 45% 45% var(--vd-radius) var(--vd-radius); object-position: 52% center; }
+.kit-botanical .vd-care > div > p { color: var(--vd-muted); margin-top: 19px; font-size: 13px; }
+.kit-botanical .vd-disclosures { margin-top: 29px; border-bottom: 1px solid var(--vd-line); }
+.kit-botanical .vd-disclosures details { border-top: 1px solid var(--vd-line); padding-block: 17px; }
+.kit-botanical .vd-disclosures summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 30px; font-size: 15px; cursor: pointer; list-style: none; }
+.kit-botanical .vd-disclosures summary::-webkit-details-marker { display: none; }
+.kit-botanical .vd-disclosures summary > span { font-size: 23px; flex-shrink: 0; transition: transform var(--vd-speed); line-height: 1; }
+.kit-botanical .vd-disclosures details[open] summary > span { transform: rotate(45deg); }
+.kit-botanical .vd-disclosures details > p { color: var(--vd-muted); font-size: 12px; padding: 17px 30px 2px 0; }
+.kit-botanical .vd-project-end { max-width: 850px; margin: 0 auto var(--vd-space); padding: 0 var(--vd-gutter); text-align: center; }
+.kit-botanical .vd-project-end > p { color: var(--vd-muted); margin: 20px auto; font-size: 13px; }
+.kit-botanical .vd-project-end > .vd-small-note { font-size: 10px; margin-bottom: 25px; }
+.kit-botanical .vd-about-heading { text-align: center; max-width: 1230px; }
+.kit-botanical .vd-about-heading h1 { font-size: clamp(39px,4.1vw,59px); }
+.kit-botanical .vd-about-heading > p:last-of-type { margin-inline: auto; max-width: 40em; }
+.kit-botanical .vd-about-photo { width: calc(100% - var(--vd-gutter) * 2); max-width: 1020px; margin-inline: auto; }
+.kit-botanical .vd-about-photo img { aspect-ratio: 2.1; border-radius: 150px var(--vd-radius) 150px var(--vd-radius); object-position: center 43%; }
+.kit-botanical .vd-about-photo figcaption { text-align: center; }
+.kit-botanical .vd-about-story { max-width: 1210px; margin: var(--vd-space) auto; padding-inline: var(--vd-gutter); display: grid; grid-template-columns: 1fr 1.1fr; gap: 9%; }
+.kit-botanical .vd-about-story p { color: var(--vd-muted); font-size: 13px; }
+.kit-botanical .vd-about-story p + p { margin-top: 22px; }
+.kit-botanical .vd-practices { max-width: 1210px; padding-inline: var(--vd-gutter); margin: 0 auto var(--vd-space); }
+.kit-botanical .vd-practices > h2 { margin-bottom: 30px; }
+.kit-botanical .vd-practices article { display: grid; grid-template-columns: .8fr 1.3fr 25px; align-items: baseline; gap: 35px; padding: 26px 0; border-top: 1px solid var(--vd-line); }
+.kit-botanical .vd-practices h3 { font-size: 23px; }
+.kit-botanical .vd-practices p { color: var(--vd-muted); font-size: 13px; }
+.kit-botanical .vd-practices article > span { font-size: 24px; }
+.kit-botanical .vd-about-method { max-width: 770px; margin: 0 auto var(--vd-space); padding-inline: var(--vd-gutter); text-align: center; }
+.kit-botanical .vd-about-method p { color: var(--vd-muted); margin: 24px 0; font-size: 13px; }
+@media (max-width: 1023px) {
+  .kit-botanical .vd-wordmark { display: none; }
+  .kit-botanical .vd-header nav { gap: 27px; }
+  .kit-botanical .vd-header { gap: 20px; }
+  .kit-botanical .vd-nav-contact { padding-inline: 13px; gap: 14px; }
+  .kit-botanical .vd-hero { gap: 6%; padding-top: 26px; }
+  .kit-botanical .vd-hero h1 { font-size: 54px; }
+  .kit-botanical .vd-hero .vd-label { font-size: 8px; letter-spacing: .07em; }
+  .kit-botanical .vd-hero-photo figcaption { flex-wrap: wrap; gap: 4px; }
+  .kit-botanical .vd-light { padding-inline: 33px; }
+  .kit-botanical .vd-light-result { gap: 7%; }
+  .kit-botanical .vd-light-result h3 { font-size: 23px; }
+  .kit-botanical .vd-story, .kit-botanical .vd-care { gap: 7%; }
+  .kit-botanical .vd-layers > div { gap: 28px; }
+  .kit-botanical .vd-footer-content { gap: 30px; }
+  .kit-botanical .vd-email { font-size: 23px; }
+}
+@media (max-width: 767px) {
+  .kit-botanical .vd-header { min-height: 75px; gap: 16px; }
+  .kit-botanical .vd-brand { gap: 8px; }
+  .kit-botanical .vd-brand strong { font-size: 23px; }
+  .kit-botanical .vd-brand-mark { width: 15px; height: 22px; margin-right: 0; }
+  .kit-botanical .vd-header nav { gap: 18px; font-size: 11px; }
+  .kit-botanical .vd-nav-contact { display: none; }
+  .kit-botanical .vd-hero { grid-template-columns: 1fr; gap: 28px; padding-top: 29px; }
+  .kit-botanical .vd-hero-copy { padding-bottom: 0; }
+  .kit-botanical .vd-hero .vd-label { font-size: 8px; letter-spacing: .09em; }
+  .kit-botanical .vd-hero h1 { font-size: 49px; margin: 21px 0; }
+  .kit-botanical .vd-intro { max-width: 27em; font-size: 12px; margin-bottom: 25px; }
+  .kit-botanical .vd-hero-photo > div { height: 380px; border-radius: 46% 46% var(--vd-radius) var(--vd-radius); }
+  .kit-botanical .vd-hero-photo figcaption { font-size: 9px; flex-wrap: nowrap; gap: 10px; }
+  .kit-botanical .vd-hero-photo figcaption > span:last-child { font-size: 7px; letter-spacing: .05em; }
+  .kit-botanical .vd-statement { margin-top: 58px; }
+  .kit-botanical .vd-statement h2 { font-size: 29px; }
+  .kit-botanical .vd-statement > p { margin-top: 20px; font-size: 12px; }
+  .kit-botanical .vd-light { padding: 29px 23px 24px; }
+  .kit-botanical .vd-light-heading h2 { font-size: 27px; max-width: 10em; }
+  .kit-botanical .vd-light-heading > p { font-size: 11px; }
+  .kit-botanical .vd-light-options { gap: 7px; margin: 22px 0; }
+  .kit-botanical .vd-light-options button { font-size: 10px; padding: 9px 12px; }
+  .kit-botanical .vd-light-result { grid-template-columns: 1fr; gap: 27px; padding-block: 24px; }
+  .kit-botanical .vd-light-result h3 { font-size: 24px; }
+  .kit-botanical .vd-light-result > div > p:not(.vd-result-label) { font-size: 12px; margin-block: 15px; }
+  .kit-botanical .vd-light-tips li { font-size: 11px; }
+  .kit-botanical .vd-light-tips ul { margin-top: 13px; }
+  .kit-botanical .vd-light > .vd-small-note { font-size: 9px; padding-top: 17px; }
+  .kit-botanical .vd-story { grid-template-columns: 1fr; gap: 30px; }
+  .kit-botanical .vd-story img { aspect-ratio: 1.15; }
+  .kit-botanical .vd-story h2 { font-size: 31px; }
+  .kit-botanical .vd-story > div > p { margin-block: 20px; font-size: 12px; }
+  .kit-botanical .vd-about-invite { flex-direction: column; align-items: flex-start; gap: 29px; }
+  .kit-botanical .vd-leaf-window { width: 100%; height: 140px; flex-basis: auto; border-radius: var(--vd-pill); }
+  .kit-botanical .vd-leaf-window img { object-position: center 46%; }
+  .kit-botanical .vd-about-invite h2 { font-size: 31px; }
+  .kit-botanical .vd-about-invite p { margin-block: 19px; font-size: 12px; }
+  .kit-botanical .vd-footer { padding-top: 36px; border-radius: 35px 35px 0 0; }
+  .kit-botanical .vd-footer-content { flex-direction: column; align-items: flex-start; gap: 30px; }
+  .kit-botanical .vd-footer h2 { font-size: 37px; }
+  .kit-botanical .vd-email { font-size: 26px; }
+  .kit-botanical .vd-footer-bottom { flex-wrap: wrap; gap: 13px 20px; margin-top: 26px; }
+  .kit-botanical .vd-footer-bottom > span:last-child { width: 100%; }
+  .kit-botanical .vd-page-heading { padding-block: 30px; }
+  .kit-botanical .vd-page-heading .vd-label { font-size: 8px; letter-spacing: .09em; }
+  .kit-botanical .vd-page-heading h1 { font-size: 46px; margin-block: 19px; }
+  .kit-botanical .vd-page-heading > p:last-of-type { font-size: 12px; }
+  .kit-botanical .vd-facts { gap: 18px 27px; margin-top: 25px; padding-top: 18px; }
+  .kit-botanical .vd-facts dt { font-size: 9px; }
+  .kit-botanical .vd-facts dd { font-size: 10px; }
+  .kit-botanical .vd-project-cover img { aspect-ratio: 1.2; }
+  .kit-botanical .vd-project-cover figcaption { font-size: 9px; text-align: left; }
+  .kit-botanical .vd-project-brief p { font-size: 12px; }
+  .kit-botanical .vd-layers > div { grid-template-columns: 1fr; gap: 30px; margin-top: 27px; padding-top: 25px; }
+  .kit-botanical .vd-layers article { display: grid; grid-template-columns: 30px 1fr; gap: 8px 17px; align-items: baseline; }
+  .kit-botanical .vd-layers article h3 { margin: 0; font-size: 24px; }
+  .kit-botanical .vd-layers article p { grid-column: 2; font-size: 12px; }
+  .kit-botanical .vd-care { grid-template-columns: 1fr; gap: 31px; }
+  .kit-botanical .vd-care img { aspect-ratio: 1.15; border-radius: 40% 40% var(--vd-radius) var(--vd-radius); }
+  .kit-botanical .vd-care > div > p { font-size: 12px; }
+  .kit-botanical .vd-disclosures summary { font-size: 14px; }
+  .kit-botanical .vd-disclosures details > p { padding-right: 0; }
+  .kit-botanical .vd-project-end > p { font-size: 12px; }
+  .kit-botanical .vd-project-end > .vd-small-note { font-size: 9px; }
+  .kit-botanical .vd-about-heading h1 { font-size: 35px; line-height: 1.45; }
+  .kit-botanical .vd-about-photo img { aspect-ratio: 1.14; border-radius: 85px var(--vd-radius) 85px var(--vd-radius); }
+  .kit-botanical .vd-about-photo figcaption { font-size: 9px; text-align: left; }
+  .kit-botanical .vd-about-story { grid-template-columns: 1fr; gap: 25px; }
+  .kit-botanical .vd-about-story p { font-size: 12px; }
+  .kit-botanical .vd-practices article { grid-template-columns: 1fr 20px; gap: 10px 15px; padding-block: 23px; }
+  .kit-botanical .vd-practices article h3 { font-size: 23px; }
+  .kit-botanical .vd-practices article p { grid-column: 1 / -1; grid-row: 2; font-size: 12px; }
+  .kit-botanical .vd-practices article > span { grid-column: 2; grid-row: 1; }
+  .kit-botanical .vd-about-method p { font-size: 12px; margin-block: 22px; }
+}
+@media (max-width: 359px) {
+  .kit-botanical { --vd-gutter: 18px; }
+  .kit-botanical .vd-header nav { gap: 12px; font-size: 10px; }
+  .kit-botanical .vd-hero h1 { font-size: 45px; }
+  .kit-botanical .vd-hero-photo > div { height: 330px; }
+  .kit-botanical .vd-hero-photo figcaption { flex-wrap: wrap; gap: 4px; }
+  .kit-botanical .vd-light { padding-inline: 19px; }
+  .kit-botanical .vd-light-options button { padding-inline: 10px; }
+  .kit-botanical .vd-about-heading h1 { font-size: 32px; }
+  .kit-botanical .vd-email { font-size: 24px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .kit-botanical *, .kit-botanical *::before, .kit-botanical *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

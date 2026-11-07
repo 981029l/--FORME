@@ -1,0 +1,22 @@
+[
+  {
+    "page": "catalog",
+    "url": "http://127.0.0.1:3000/",
+    "time": "2026-11-06T17:40:57.556Z",
+    "lighthouse": "13.6.0",
+    "scores": {
+      "performance": 89,
+      "accessibility": 100
+    }
+  },
+  {
+    "page": "cafe",
+    "url": "http://127.0.0.1:3000/preview/cafe",
+    "time": "2026-11-06T17:41:12.446Z",
+    "lighthouse": "13.6.0",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100
+    }
+  }
+]
